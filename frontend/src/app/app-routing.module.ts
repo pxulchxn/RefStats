@@ -7,9 +7,10 @@ const routes: Routes = [
   {
     path: '', component: AppLayoutComponent,
     children: [
-      {path: '', component: TestComponent}
+      {path: '', component: TestComponent},
+      {path: '', loadChildren: () => import('./program/components/dashboards/dashboards.module').then(m => m.DashboardsModule) }
     ]
-  },{ path: 'landing', loadChildren: () => import('./program/components/landing/landing.module').then(m => m.LandingModule) },
+  },{path: 'landing', loadChildren: () => import('./program/components/landing/landing.module').then(m => m.LandingModule) },
 ];
 
 @NgModule({
