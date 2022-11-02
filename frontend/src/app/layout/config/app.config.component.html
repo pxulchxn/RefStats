@@ -1,18 +1,18 @@
-<button class="layout-config-button p-link" type="button" (click)="onConfigButtonClick()">
+<!--<button class="layout-config-button p-link" type="button" (click)="onConfigButtonClick()">
     <i class="pi pi-cog"></i>
-</button>
+</button>-->
 
 <p-sidebar [(visible)]="visible" position="right" [transitionOptions]="'.3s cubic-bezier(0, 0, 0.2, 1)'" styleClass="layout-config-sidebar w-18rem">
     <h5>Themes</h5>
     <div class="flex flex-wrap row-gap-3">
         <div class="w-3" *ngFor="let theme of componentThemes">
-            <button type="button" 
-                class="cursor-pointer p-link w-2rem h-2rem border-circle flex-shrink-0" 
-                (click)="changeTheme(theme.name)" 
+            <button type="button"
+                class="cursor-pointer p-link w-2rem h-2rem border-circle flex-shrink-0"
+                (click)="changeTheme(theme.name)"
                 [ngStyle]="{'background-color': theme.color}"></button>
         </div>
     </div>
-    
+
     <h5>Scale</h5>
     <div class="flex align-items-center">
         <button icon="pi pi-minus" type="button" pButton (click)="decrementScale()" class="p-button-text p-button-rounded w-2rem h-2rem mr-2" [disabled]="scale === scales[0]"></button>
@@ -55,7 +55,7 @@
             <label for="menutheme-transparent">Transparent</label>
         </div>
     </ng-container>
-    
+
     <h5>Color Scheme</h5>
     <div class="field-radiobutton">
         <p-radioButton name="colorScheme" value="light" [(ngModel)]="colorScheme" inputId="mode-light"></p-radioButton>
@@ -82,7 +82,7 @@
                 <label for="filled_input">Filled</label>
             </div>
         </div>
-    
+
         <h5>Ripple Effect</h5>
         <p-inputSwitch [(ngModel)]="ripple"></p-inputSwitch>
     </ng-container>

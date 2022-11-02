@@ -5,18 +5,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { AppLayoutModule } from "./layout/app.layout.module";
-import { LoginComponent } from './login/login.component';
+import {InputTextModule} from "primeng/inputtext";
+import {CheckboxModule} from "primeng/checkbox";
+import {ButtonModule} from "primeng/button";
+import {RippleModule} from "primeng/ripple";
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent,
-    LoginComponent
+    TestComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AppLayoutModule
+    AppLayoutModule,
+    InputTextModule,
+    CheckboxModule,
+    ButtonModule,
+    RippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

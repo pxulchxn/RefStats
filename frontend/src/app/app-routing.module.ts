@@ -9,7 +9,7 @@ const routes: Routes = [
     children: [
       {path: '', component: TestComponent}
     ]
-  }
+  },{ path: 'landing', loadChildren: () => import('./program/components/landing/landing.module').then(m => m.LandingModule) },
 ];
 
 @NgModule({
