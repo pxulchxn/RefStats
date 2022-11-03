@@ -9,7 +9,7 @@
             },
             "company": "Benton, John B Jr",
             "date": "2015-09-13",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 17,
             "representative": {
@@ -27,7 +27,7 @@
             },
             "company": "Chanay, Jeffrey A Esq",
             "date": "2019-02-09",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 0,
             "representative": {
@@ -45,7 +45,7 @@
             },
             "company": "Chemel, James L Cpa",
             "date": "2017-05-13",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 63,
             "representative": {
@@ -63,7 +63,7 @@
             },
             "company": "Feltz Printing Service",
             "date": "2020-09-15",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 37,
             "representative": {
@@ -81,7 +81,7 @@
             },
             "company": "Printing Dimensions",
             "date": "2016-05-20",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 33,
             "representative": {
@@ -99,7 +99,7 @@
             },
             "company": "Chapman, Ross E Esq",
             "date": "2018-02-16",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 68,
             "representative": {
@@ -117,7 +117,7 @@
             },
             "company": "Morlong Associates",
             "date": "2018-02-19",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 54,
             "representative": {
@@ -135,7 +135,7 @@
             },
             "company": "Commercial Press",
             "date": "2019-08-13",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 69,
             "representative": {
@@ -153,7 +153,7 @@
             },
             "company": "Truhlar And Truhlar Attys",
             "date": "2018-11-21",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 76,
             "representative": {
@@ -171,7 +171,7 @@
             },
             "company": "King, Christopher A Esq",
             "date": "2015-07-07",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": false,
             "activity": 3,
             "representative": {
@@ -189,7 +189,7 @@
             },
             "company": "Dorl, James J Esq",
             "date": "2018-11-07",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 38,
             "representative": {
@@ -207,7 +207,7 @@
             },
             "company": "Rangoni Of Florence",
             "date": "2017-03-11",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 87,
             "representative": {
@@ -225,7 +225,7 @@
             },
             "company": "Feiner Bros",
             "date": "2015-10-20",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 80,
             "representative": {
@@ -243,7 +243,7 @@
             },
             "company": "Buckley Miller & Wright",
             "date": "2016-07-25",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": false,
             "activity": 59,
             "representative": {
@@ -261,7 +261,7 @@
             },
             "company": "Rousseaux, Michael Esq",
             "date": "2019-06-25",
-            "status": "new",
+            "status": "second_assistent",
             "verified": true,
             "activity": 90,
             "representative": {
@@ -279,7 +279,7 @@
             },
             "company": "Century Communications",
             "date": "2017-12-12",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": false,
             "activity": 52,
             "representative": {
@@ -297,7 +297,7 @@
             },
             "company": "Bolton, Wilbur Esq",
             "date": "2018-07-04",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 31,
             "representative": {
@@ -315,7 +315,7 @@
             },
             "company": "T M Byxbee Company Pc",
             "date": "2020-02-27",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 48,
             "representative": {
@@ -333,7 +333,7 @@
             },
             "company": "Farmers Insurance Group",
             "date": "2017-12-21",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": true,
             "activity": 16,
             "representative": {
@@ -351,7 +351,7 @@
             },
             "company": "Post Box Services Plus",
             "date": "2016-01-04",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 19,
             "representative": {
@@ -369,7 +369,7 @@
             },
             "company": "Sport En Art",
             "date": "2016-10-21",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 100,
             "representative": {
@@ -387,7 +387,7 @@
             },
             "company": "C 4 Network Inc",
             "date": "2017-03-24",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 72,
             "representative": {
@@ -405,7 +405,7 @@
             },
             "company": "Ingalls, Donald R Esq",
             "date": "2017-04-15",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 94,
             "representative": {
@@ -423,7 +423,7 @@
             },
             "company": "Franklin, Peter L Esq",
             "date": "2017-03-11",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 56,
             "representative": {
@@ -441,7 +441,7 @@
             },
             "company": "Wtlz Power 107 Fm",
             "date": "2018-03-27",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 7,
             "representative": {
@@ -459,7 +459,7 @@
             },
             "company": "Ledecky, David Esq",
             "date": "2016-02-20",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 1,
             "representative": {
@@ -477,7 +477,7 @@
             },
             "company": "Professional Image Inc",
             "date": "2018-06-24",
-            "status": "new",
+            "status": "second_assistent",
             "verified": true,
             "activity": 26,
             "representative": {
@@ -495,7 +495,7 @@
             },
             "company": "Sider, Donald C Esq",
             "date": "2016-09-24",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 76,
             "representative": {
@@ -513,7 +513,7 @@
             },
             "company": "U Pull It",
             "date": "2020-04-11",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 7,
             "representative": {
@@ -531,7 +531,7 @@
             },
             "company": "Clark, Richard Cpa",
             "date": "2018-04-11",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 81,
             "representative": {
@@ -549,7 +549,7 @@
             },
             "company": "Moskowitz, Barry S",
             "date": "2016-06-11",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": true,
             "activity": 56,
             "representative": {
@@ -567,7 +567,7 @@
             },
             "company": "Cascade Realty Advisors Inc",
             "date": "2017-08-02",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 94,
             "representative": {
@@ -583,9 +583,9 @@
                 "name": "Australia",
                 "code": "au"
             },
-            "company": "Knwz Newsradio",
+            "company": "Knwz second_assistentsradio",
             "date": "2018-06-06",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 68,
             "representative": {
@@ -603,7 +603,7 @@
             },
             "company": "Giampetro, Anthony D",
             "date": "2019-08-08",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 85,
             "representative": {
@@ -621,7 +621,7 @@
             },
             "company": "Milford Enterprises Inc",
             "date": "2018-05-19",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": false,
             "activity": 46,
             "representative": {
@@ -639,7 +639,7 @@
             },
             "company": "Mosocco, Ronald A",
             "date": "2015-02-12",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 32,
             "representative": {
@@ -657,7 +657,7 @@
             },
             "company": "Tri State Refueler Co",
             "date": "2018-04-25",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 77,
             "representative": {
@@ -675,7 +675,7 @@
             },
             "company": "Parkway Company",
             "date": "2016-02-27",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 66,
             "representative": {
@@ -693,7 +693,7 @@
             },
             "company": "Fbs Business Finance",
             "date": "2019-09-17",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 25,
             "representative": {
@@ -711,7 +711,7 @@
             },
             "company": "Eder Assocs Consltng Engrs Pc",
             "date": "2016-12-03",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 51,
             "representative": {
@@ -729,7 +729,7 @@
             },
             "company": "Tri M Tool Inc",
             "date": "2017-12-15",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": true,
             "activity": 49,
             "representative": {
@@ -747,7 +747,7 @@
             },
             "company": "International Eyelets Inc",
             "date": "2017-02-02",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 5,
             "representative": {
@@ -765,7 +765,7 @@
             },
             "company": "Rapid Trading Intl",
             "date": "2018-12-25",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 100,
             "representative": {
@@ -783,7 +783,7 @@
             },
             "company": "Abc Enterprises Inc",
             "date": "2018-04-10",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 71,
             "representative": {
@@ -801,7 +801,7 @@
             },
             "company": "Cindy Turner Associates",
             "date": "2018-05-06",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 54,
             "representative": {
@@ -819,7 +819,7 @@
             },
             "company": "Stanton, James D Esq",
             "date": "2019-07-10",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 93,
             "representative": {
@@ -837,7 +837,7 @@
             },
             "company": "Grace Pastries Inc",
             "date": "2018-02-19",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 97,
             "representative": {
@@ -855,7 +855,7 @@
             },
             "company": "Schroer, Gene E Esq",
             "date": "2019-11-27",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 80,
             "representative": {
@@ -873,7 +873,7 @@
             },
             "company": "Knights Inn",
             "date": "2018-11-24",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 63,
             "representative": {
@@ -891,7 +891,7 @@
             },
             "company": "Bollinger Mach Shp & Shipyard",
             "date": "2018-04-19",
-            "status": "new",
+            "status": "second_assistent",
             "verified": true,
             "activity": 92,
             "representative": {
@@ -907,9 +907,9 @@
                 "name": "Bolivia",
                 "code": "bo"
             },
-            "company": "Orinda News",
+            "company": "Orinda second_assistents",
             "date": "2019-09-06",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 72,
             "representative": {
@@ -927,7 +927,7 @@
             },
             "company": "Ballard Spahr Andrews",
             "date": "2018-04-26",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 36,
             "representative": {
@@ -945,7 +945,7 @@
             },
             "company": "Lowy Limousine Service",
             "date": "2018-04-12",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 31,
             "representative": {
@@ -963,7 +963,7 @@
             },
             "company": "Vicon Corporation",
             "date": "2018-01-24",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": false,
             "activity": 89,
             "representative": {
@@ -981,7 +981,7 @@
             },
             "company": "Rossi, Michael M",
             "date": "2017-04-17",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 27,
             "representative": {
@@ -999,7 +999,7 @@
             },
             "company": "Northwest Publishing",
             "date": "2019-04-14",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 27,
             "representative": {
@@ -1017,7 +1017,7 @@
             },
             "company": "Branford Wire & Mfg Co",
             "date": "2019-09-09",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 79,
             "representative": {
@@ -1035,7 +1035,7 @@
             },
             "company": "East Coast Marketing",
             "date": "2017-02-18",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 39,
             "representative": {
@@ -1053,7 +1053,7 @@
             },
             "company": "Wye Technologies Inc",
             "date": "2020-10-05",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 55,
             "representative": {
@@ -1071,7 +1071,7 @@
             },
             "company": "Healy, George W Iv",
             "date": "2018-09-28",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": false,
             "activity": 79,
             "representative": {
@@ -1089,7 +1089,7 @@
             },
             "company": "Alpenlite Inc",
             "date": "2016-06-16",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 49,
             "representative": {
@@ -1107,7 +1107,7 @@
             },
             "company": "Hubbard, Bruce Esq",
             "date": "2017-05-25",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 87,
             "representative": {
@@ -1125,7 +1125,7 @@
             },
             "company": "Arthur A Oliver & Son Inc",
             "date": "2020-05-09",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": true,
             "activity": 5,
             "representative": {
@@ -1143,7 +1143,7 @@
             },
             "company": "George Jessop Carter Jewelers",
             "date": "2019-09-07",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 77,
             "representative": {
@@ -1161,7 +1161,7 @@
             },
             "company": "Schultz, Thomas C Md",
             "date": "2015-08-10",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 94,
             "representative": {
@@ -1179,7 +1179,7 @@
             },
             "company": "H H H Enterprises Inc",
             "date": "2018-03-20",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 25,
             "representative": {
@@ -1197,7 +1197,7 @@
             },
             "company": "Hawaiian King Hotel",
             "date": "2020-03-03",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 96,
             "representative": {
@@ -1215,7 +1215,7 @@
             },
             "company": "Killion Industries",
             "date": "2018-09-18",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 38,
             "representative": {
@@ -1233,7 +1233,7 @@
             },
             "company": "Robinson, William J Esq",
             "date": "2019-06-08",
-            "status": "new",
+            "status": "second_assistent",
             "verified": true,
             "activity": 49,
             "representative": {
@@ -1251,7 +1251,7 @@
             },
             "company": "Private Properties",
             "date": "2018-12-06",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 16,
             "representative": {
@@ -1269,7 +1269,7 @@
             },
             "company": "Rowley Schlimgen Inc",
             "date": "2017-04-05",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 25,
             "representative": {
@@ -1287,7 +1287,7 @@
             },
             "company": "Forging Specialties",
             "date": "2015-02-02",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 16,
             "representative": {
@@ -1305,7 +1305,7 @@
             },
             "company": "Smits, Patricia Garity",
             "date": "2018-08-17",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 85,
             "representative": {
@@ -1323,7 +1323,7 @@
             },
             "company": "H Lee Leonard Attorney At Law",
             "date": "2018-09-08",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 92,
             "representative": {
@@ -1341,7 +1341,7 @@
             },
             "company": "A K Construction Co",
             "date": "2018-11-13",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 22,
             "representative": {
@@ -1359,7 +1359,7 @@
             },
             "company": "Ambelang, Jessica M Md",
             "date": "2019-08-18",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 64,
             "representative": {
@@ -1377,7 +1377,7 @@
             },
             "company": "Q A Service",
             "date": "2015-04-02",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": false,
             "activity": 80,
             "representative": {
@@ -1395,7 +1395,7 @@
             },
             "company": "Wood & Whitacre Contractors",
             "date": "2017-09-15",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 70,
             "representative": {
@@ -1413,7 +1413,7 @@
             },
             "company": "Mark Iv Press Ltd",
             "date": "2017-03-27",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 16,
             "representative": {
@@ -1431,7 +1431,7 @@
             },
             "company": "Museum Of Science & Industry",
             "date": "2017-06-01",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 90,
             "representative": {
@@ -1449,7 +1449,7 @@
             },
             "company": "Garrison Ind",
             "date": "2017-03-14",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 96,
             "representative": {
@@ -1467,7 +1467,7 @@
             },
             "company": "Saronix Nymph Products",
             "date": "2018-07-09",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 77,
             "representative": {
@@ -1485,7 +1485,7 @@
             },
             "company": "Smc Inc",
             "date": "2018-09-11",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 46,
             "representative": {
@@ -1503,7 +1503,7 @@
             },
             "company": "E A I Electronic Assocs Inc",
             "date": "2017-11-12",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 83,
             "representative": {
@@ -1521,7 +1521,7 @@
             },
             "company": "Conte, Christopher A Esq",
             "date": "2016-03-01",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 83,
             "representative": {
@@ -1539,7 +1539,7 @@
             },
             "company": "Anker Law Office",
             "date": "2016-05-21",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 49,
             "representative": {
@@ -1557,7 +1557,7 @@
             },
             "company": "Beutelschies & Company",
             "date": "2016-01-22",
-            "status": "new",
+            "status": "second_assistent",
             "verified": true,
             "activity": 34,
             "representative": {
@@ -1575,7 +1575,7 @@
             },
             "company": "Fligg, Kenneth I Jr",
             "date": "2016-07-26",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 64,
             "representative": {
@@ -1593,7 +1593,7 @@
             },
             "company": "Sharp, J Daniel Esq",
             "date": "2020-07-24",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 51,
             "representative": {
@@ -1611,7 +1611,7 @@
             },
             "company": "Assink, Anne H Esq",
             "date": "2019-11-10",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": false,
             "activity": 11,
             "representative": {
@@ -1629,7 +1629,7 @@
             },
             "company": "Jewel My Shop Inc",
             "date": "2016-06-05",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 64,
             "representative": {
@@ -1647,7 +1647,7 @@
             },
             "company": "Chinese Translation Resources",
             "date": "2016-02-28",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 44,
             "representative": {
@@ -1665,7 +1665,7 @@
             },
             "company": "Stevens, Charles T",
             "date": "2018-12-13",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 62,
             "representative": {
@@ -1683,7 +1683,7 @@
             },
             "company": "Mclaughlin, Luther W Cpa",
             "date": "2017-06-16",
-            "status": "new",
+            "status": "second_assistent",
             "verified": true,
             "activity": 79,
             "representative": {
@@ -1701,7 +1701,7 @@
             },
             "company": "Tree Musketeers",
             "date": "2019-02-17",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 50,
             "representative": {
@@ -1719,7 +1719,7 @@
             },
             "company": "Springfield Div Oh Edison Co",
             "date": "2019-11-26",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 84,
             "representative": {
@@ -1737,7 +1737,7 @@
             },
             "company": "Logan Memorial Hospital",
             "date": "2016-07-06",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 88,
             "representative": {
@@ -1755,7 +1755,7 @@
             },
             "company": "Kelly, Charles G Esq",
             "date": "2019-10-02",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 44,
             "representative": {
@@ -1773,7 +1773,7 @@
             },
             "company": "Industrial Paper Shredders Inc",
             "date": "2018-07-05",
-            "status": "new",
+            "status": "second_assistent",
             "verified": true,
             "activity": 7,
             "representative": {
@@ -1791,7 +1791,7 @@
             },
             "company": "Beck Horizon Builders",
             "date": "2018-05-14",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 99,
             "representative": {
@@ -1809,7 +1809,7 @@
             },
             "company": "Porto Cayo At Hawks Cay",
             "date": "2018-03-14",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 0,
             "representative": {
@@ -1827,7 +1827,7 @@
             },
             "company": "Pacific Grove Museum Ntrl Hist",
             "date": "2018-09-23",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 3,
             "representative": {
@@ -1845,7 +1845,7 @@
             },
             "company": "Bender & Hatley Pc",
             "date": "2018-04-10",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 88,
             "representative": {
@@ -1863,7 +1863,7 @@
             },
             "company": "Di Cristina J & Son",
             "date": "2017-09-18",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 92,
             "representative": {
@@ -1881,7 +1881,7 @@
             },
             "company": "Green Goddess",
             "date": "2017-08-19",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": true,
             "activity": 19,
             "representative": {
@@ -1899,7 +1899,7 @@
             },
             "company": "American Arts & Graphics",
             "date": "2020-06-18",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 21,
             "representative": {
@@ -1917,7 +1917,7 @@
             },
             "company": "Opryland Hotel",
             "date": "2016-11-18",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": false,
             "activity": 97,
             "representative": {
@@ -1935,7 +1935,7 @@
             },
             "company": "Marking Devices Pubg Co",
             "date": "2017-06-25",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 27,
             "representative": {
@@ -1953,7 +1953,7 @@
             },
             "company": "W Tc Industries Inc",
             "date": "2019-02-16",
-            "status": "new",
+            "status": "second_assistent",
             "verified": true,
             "activity": 35,
             "representative": {
@@ -1971,7 +1971,7 @@
             },
             "company": "Whitehall Robbins Labs Divsn",
             "date": "2018-03-11",
-            "status": "new",
+            "status": "second_assistent",
             "verified": true,
             "activity": 81,
             "representative": {
@@ -1989,7 +1989,7 @@
             },
             "company": "Sampler",
             "date": "2017-10-15",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 54,
             "representative": {
@@ -2007,7 +2007,7 @@
             },
             "company": "Juno Chefs Incorporated",
             "date": "2017-03-17",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": false,
             "activity": 31,
             "representative": {
@@ -2025,7 +2025,7 @@
             },
             "company": "Carroccio, A Thomas Esq",
             "date": "2017-04-06",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 28,
             "representative": {
@@ -2043,7 +2043,7 @@
             },
             "company": "Stanley, Richard L Esq",
             "date": "2019-02-03",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 45,
             "representative": {
@@ -2061,7 +2061,7 @@
             },
             "company": "K Cs Cstm Mouldings Windows",
             "date": "2016-09-22",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 34,
             "representative": {
@@ -2079,7 +2079,7 @@
             },
             "company": "Comfort Inn",
             "date": "2017-09-27",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 36,
             "representative": {
@@ -2097,7 +2097,7 @@
             },
             "company": "Windsor, James L Esq",
             "date": "2017-06-25",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 69,
             "representative": {
@@ -2115,7 +2115,7 @@
             },
             "company": "Jackson Shields Yeiser",
             "date": "2016-07-13",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 55,
             "representative": {
@@ -2133,7 +2133,7 @@
             },
             "company": "Box, J Calvin Esq",
             "date": "2018-09-13",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 1,
             "representative": {
@@ -2151,7 +2151,7 @@
             },
             "company": "Custom Engineering Inc",
             "date": "2017-09-11",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 8,
             "representative": {
@@ -2169,7 +2169,7 @@
             },
             "company": "Bresler Eitel Framg Gllry Ltd",
             "date": "2019-07-06",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 50,
             "representative": {
@@ -2187,7 +2187,7 @@
             },
             "company": "Carol, Drake Sparks Esq",
             "date": "2018-05-22",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 77,
             "representative": {
@@ -2205,7 +2205,7 @@
             },
             "company": "Biltmore Investors Bank",
             "date": "2017-07-18",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 65,
             "representative": {
@@ -2223,7 +2223,7 @@
             },
             "company": "Desco Equipment Corp",
             "date": "2017-10-09",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 30,
             "representative": {
@@ -2241,7 +2241,7 @@
             },
             "company": "Merlin Electric Co",
             "date": "2019-05-23",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 10,
             "representative": {
@@ -2259,7 +2259,7 @@
             },
             "company": "Bailey Cntl Co Div Babcock",
             "date": "2019-03-02",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 22,
             "representative": {
@@ -2277,7 +2277,7 @@
             },
             "company": "Ford Brothers Wholesale Inc",
             "date": "2017-02-18",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 69,
             "representative": {
@@ -2295,7 +2295,7 @@
             },
             "company": "Cambridge Inn",
             "date": "2020-05-12",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 4,
             "representative": {
@@ -2313,7 +2313,7 @@
             },
             "company": "Matricciani, Albert J Jr",
             "date": "2019-11-20",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": true,
             "activity": 11,
             "representative": {
@@ -2331,7 +2331,7 @@
             },
             "company": "Nelson Hawaiian Ltd",
             "date": "2016-11-10",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 41,
             "representative": {
@@ -2349,7 +2349,7 @@
             },
             "company": "Neland Travel Agency",
             "date": "2016-07-11",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 84,
             "representative": {
@@ -2367,7 +2367,7 @@
             },
             "company": "Asendorf, J Alan Esq",
             "date": "2017-07-17",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": false,
             "activity": 22,
             "representative": {
@@ -2385,7 +2385,7 @@
             },
             "company": "Silberman, Arthur L Esq",
             "date": "2018-08-19",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": true,
             "activity": 63,
             "representative": {
@@ -2403,7 +2403,7 @@
             },
             "company": "Honey Bee Breeding Genetics &",
             "date": "2016-05-02",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 47,
             "representative": {
@@ -2421,7 +2421,7 @@
             },
             "company": "Wells Kravitz Schnitzer",
             "date": "2018-04-13",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 62,
             "representative": {
@@ -2439,7 +2439,7 @@
             },
             "company": "Prohab Rehabilitation Servs",
             "date": "2020-01-04",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 55,
             "representative": {
@@ -2457,7 +2457,7 @@
             },
             "company": "Eldridge, Kristin K Esq",
             "date": "2016-02-05",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 3,
             "representative": {
@@ -2475,7 +2475,7 @@
             },
             "company": "Vlahos, John J Esq",
             "date": "2017-03-12",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": false,
             "activity": 3,
             "representative": {
@@ -2493,7 +2493,7 @@
             },
             "company": "Ninas Indian Grs & Videos",
             "date": "2019-03-27",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 67,
             "representative": {
@@ -2511,7 +2511,7 @@
             },
             "company": "Schmid, Gayanne K Esq",
             "date": "2019-08-06",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 14,
             "representative": {
@@ -2529,7 +2529,7 @@
             },
             "company": "Moapa Valley Federal Credit Un",
             "date": "2018-03-20",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 8,
             "representative": {
@@ -2547,7 +2547,7 @@
             },
             "company": "Kentucky Tennessee Clay Co",
             "date": "2016-02-15",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 17,
             "representative": {
@@ -2565,7 +2565,7 @@
             },
             "company": "Admiral Party Rentals & Sales",
             "date": "2016-02-10",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": false,
             "activity": 58,
             "representative": {
@@ -2583,7 +2583,7 @@
             },
             "company": "Nelson, Karolyn King Esq",
             "date": "2019-07-16",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 82,
             "representative": {
@@ -2601,7 +2601,7 @@
             },
             "company": "Panasystems",
             "date": "2015-07-23",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": false,
             "activity": 96,
             "representative": {
@@ -2619,7 +2619,7 @@
             },
             "company": "Shank, Edward L Esq",
             "date": "2017-07-02",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 92,
             "representative": {
@@ -2637,7 +2637,7 @@
             },
             "company": "Megibow & Edwards",
             "date": "2019-08-17",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 18,
             "representative": {
@@ -2655,7 +2655,7 @@
             },
             "company": "Benoff, Edward Esq",
             "date": "2019-07-04",
-            "status": "new",
+            "status": "second_assistent",
             "verified": true,
             "activity": 9,
             "representative": {
@@ -2673,7 +2673,7 @@
             },
             "company": "Woodbridge Free Public Library",
             "date": "2020-03-14",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 44,
             "representative": {
@@ -2689,9 +2689,9 @@
                 "name": "France",
                 "code": "fr"
             },
-            "company": "New York Life John Thune",
+            "company": "second_assistent York Life John Thune",
             "date": "2018-04-03",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 55,
             "representative": {
@@ -2709,7 +2709,7 @@
             },
             "company": "Alinabal Inc",
             "date": "2017-03-04",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 21,
             "representative": {
@@ -2727,7 +2727,7 @@
             },
             "company": "Poletto, Kim David Esq",
             "date": "2016-05-05",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": true,
             "activity": 91,
             "representative": {
@@ -2745,7 +2745,7 @@
             },
             "company": "Chang, Carolyn Esq",
             "date": "2019-05-28",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 30,
             "representative": {
@@ -2763,7 +2763,7 @@
             },
             "company": "Silver Bros Inc",
             "date": "2016-08-19",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 14,
             "representative": {
@@ -2779,9 +2779,9 @@
                 "name": "Indonesia",
                 "code": "id"
             },
-            "company": "Newtec Inc",
+            "company": "second_assistenttec Inc",
             "date": "2020-02-09",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 77,
             "representative": {
@@ -2799,7 +2799,7 @@
             },
             "company": "Creative Business Systems",
             "date": "2020-04-03",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 58,
             "representative": {
@@ -2817,7 +2817,7 @@
             },
             "company": "Dal Tile Corporation",
             "date": "2015-01-27",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 78,
             "representative": {
@@ -2835,7 +2835,7 @@
             },
             "company": "Edward S Katz",
             "date": "2018-08-06",
-            "status": "new",
+            "status": "second_assistent",
             "verified": false,
             "activity": 67,
             "representative": {
@@ -2853,7 +2853,7 @@
             },
             "company": "Oh My Goodknits Inc",
             "date": "2020-02-20",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 29,
             "representative": {
@@ -2871,7 +2871,7 @@
             },
             "company": "Redeker, Debbie",
             "date": "2015-05-28",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 13,
             "representative": {
@@ -2889,7 +2889,7 @@
             },
             "company": "Desert Sands Motel",
             "date": "2016-09-05",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 75,
             "representative": {
@@ -2907,7 +2907,7 @@
             },
             "company": "Cummins Southern Plains Inc",
             "date": "2016-12-20",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": true,
             "activity": 1,
             "representative": {
@@ -2925,7 +2925,7 @@
             },
             "company": "Lehigh Furn Divsn Lehigh",
             "date": "2015-11-28",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 13,
             "representative": {
@@ -2943,7 +2943,7 @@
             },
             "company": "United Van Lines Agent",
             "date": "2018-11-11",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": false,
             "activity": 73,
             "representative": {
@@ -2961,7 +2961,7 @@
             },
             "company": "Capitol Reporters",
             "date": "2016-11-05",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 76,
             "representative": {
@@ -2979,7 +2979,7 @@
             },
             "company": "Kwik Kopy Printing",
             "date": "2020-08-13",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 60,
             "representative": {
@@ -2997,7 +2997,7 @@
             },
             "company": "Centro Inc",
             "date": "2015-07-06",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": true,
             "activity": 24,
             "representative": {
@@ -3015,7 +3015,7 @@
             },
             "company": "Campbell, Jan Esq",
             "date": "2020-02-25",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 93,
             "representative": {
@@ -3033,7 +3033,7 @@
             },
             "company": "Evans, C Kelly Esq",
             "date": "2017-12-19",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 30,
             "representative": {
@@ -3051,7 +3051,7 @@
             },
             "company": "Scat Enterprises",
             "date": "2016-02-22",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": false,
             "activity": 93,
             "representative": {
@@ -3069,7 +3069,7 @@
             },
             "company": "Nagle, Daniel J Esq",
             "date": "2016-12-24",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 88,
             "representative": {
@@ -3087,7 +3087,7 @@
             },
             "company": "Serendiquity Bed & Breakfast",
             "date": "2020-10-18",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": true,
             "activity": 70,
             "representative": {
@@ -3105,7 +3105,7 @@
             },
             "company": "Ray Carolyne Realty",
             "date": "2018-02-12",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 61,
             "representative": {
@@ -3123,7 +3123,7 @@
             },
             "company": "Berg, Charles E",
             "date": "2018-06-10",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": false,
             "activity": 91,
             "representative": {
@@ -3141,7 +3141,7 @@
             },
             "company": "Ray, Milbern D",
             "date": "2017-04-11",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 98,
             "representative": {
@@ -3159,7 +3159,7 @@
             },
             "company": "Chadds Ford Winery",
             "date": "2019-07-27",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 97,
             "representative": {
@@ -3177,7 +3177,7 @@
             },
             "company": "A R Packaging",
             "date": "2020-04-23",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 56,
             "representative": {
@@ -3195,7 +3195,7 @@
             },
             "company": "Corn Popper",
             "date": "2020-09-16",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 76,
             "representative": {
@@ -3213,7 +3213,7 @@
             },
             "company": "Birite Foodservice Distr",
             "date": "2016-05-14",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": true,
             "activity": 43,
             "representative": {
@@ -3231,7 +3231,7 @@
             },
             "company": "Anchorage Museum Of Hist & Art",
             "date": "2018-06-22",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 58,
             "representative": {
@@ -3249,7 +3249,7 @@
             },
             "company": "Haber, George D Md",
             "date": "2018-10-25",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": false,
             "activity": 72,
             "representative": {
@@ -3267,7 +3267,7 @@
             },
             "company": "Royal Pontiac Olds Inc",
             "date": "2018-07-19",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": false,
             "activity": 24,
             "representative": {
@@ -3285,7 +3285,7 @@
             },
             "company": "Leonards Antiques Inc",
             "date": "2015-03-15",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 86,
             "representative": {
@@ -3303,7 +3303,7 @@
             },
             "company": "Meca",
             "date": "2017-04-14",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 15,
             "representative": {
@@ -3321,7 +3321,7 @@
             },
             "company": "Nercon Engineering & Mfg Inc",
             "date": "2015-02-19",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 9,
             "representative": {
@@ -3339,7 +3339,7 @@
             },
             "company": "Replica I",
             "date": "2016-03-25",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 82,
             "representative": {
@@ -3357,7 +3357,7 @@
             },
             "company": "20 20 Printing Inc",
             "date": "2020-10-13",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 13,
             "representative": {
@@ -3375,7 +3375,7 @@
             },
             "company": "Publishers Group West",
             "date": "2019-12-21",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 57,
             "representative": {
@@ -3393,7 +3393,7 @@
             },
             "company": "Nischwitz, Jeffrey L Esq",
             "date": "2016-02-26",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 45,
             "representative": {
@@ -3411,7 +3411,7 @@
             },
             "company": "Payne Blades & Wellborn Pa",
             "date": "2018-10-11",
-            "status": "new",
+            "status": "second_assistent",
             "verified": true,
             "activity": 64,
             "representative": {
@@ -3429,7 +3429,7 @@
             },
             "company": "Coldwell Bnkr Wright Real Est",
             "date": "2015-10-18",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": false,
             "activity": 74,
             "representative": {
@@ -3447,7 +3447,7 @@
             },
             "company": "Computer Repair Service",
             "date": "2016-02-13",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": false,
             "activity": 79,
             "representative": {
@@ -3465,7 +3465,7 @@
             },
             "company": "Fleetwood Building Block Inc",
             "date": "2018-03-08",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": false,
             "activity": 19,
             "representative": {
@@ -3483,7 +3483,7 @@
             },
             "company": "Colts Neck Medical Assocs Inc",
             "date": "2017-12-02",
-            "status": "negotiation",
+            "status": "fourth_official",
             "verified": true,
             "activity": 11,
             "representative": {
@@ -3499,9 +3499,9 @@
                 "name": "Estonia",
                 "code": "ee"
             },
-            "company": "New England Taxidermy",
+            "company": "second_assistent England Taxidermy",
             "date": "2019-01-07",
-            "status": "proposal",
+            "status": "fourth_official",
             "verified": true,
             "activity": 4,
             "representative": {
@@ -3519,7 +3519,7 @@
             },
             "company": "Ludcke, George O Esq",
             "date": "2016-08-14",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 62,
             "representative": {
@@ -3537,7 +3537,7 @@
             },
             "company": "Mccorkle, Tom S Esq",
             "date": "2016-03-05",
-            "status": "renewal",
+            "status": "resecond_assistental",
             "verified": true,
             "activity": 64,
             "representative": {
@@ -3555,7 +3555,7 @@
             },
             "company": "Eagle Software Inc",
             "date": "2015-12-14",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 91,
             "representative": {
@@ -3573,7 +3573,7 @@
             },
             "company": "Juvenile & Adult Super",
             "date": "2019-06-01",
-            "status": "unqualified",
+            "status": "schiedsrichter",
             "verified": true,
             "activity": 40,
             "representative": {
@@ -3591,7 +3591,7 @@
             },
             "company": "Perez, Joseph J Esq",
             "date": "2015-12-09",
-            "status": "qualified",
+            "status": "first_assistent",
             "verified": true,
             "activity": 27,
             "representative": {

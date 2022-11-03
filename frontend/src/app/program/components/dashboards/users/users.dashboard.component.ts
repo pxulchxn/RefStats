@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Customer, Representative } from 'src/app/program/api/customer';
-import { CustomerService } from 'src/app/program/service/customer.service';
+import { MatchService } from 'src/app/program/service/customer.service';
 import { Product } from 'src/app/program/api/product';
 import { ProductService } from 'src/app/program/service/product.service';
 import { Table } from 'primeng/table';
@@ -46,7 +46,7 @@ export class UserDashboardComponent implements OnInit {
 
   @ViewChild('filter') filter!: ElementRef;
 
-  constructor(private customerService: CustomerService, private productService: ProductService) { }
+  constructor(private customerService: MatchService, private productService: ProductService) { }
 
   ngOnInit() {
     this.customerService.getCustomersLarge().then(customers => {

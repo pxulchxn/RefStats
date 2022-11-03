@@ -29,7 +29,7 @@ export class AppMenuComponent implements OnInit {
               {
                 label: 'Übersicht',
                 icon: 'pi pi-fw pi-list',
-                routerLink: ['/']
+                routerLink: ['/dashboard-matches']
               },
               {
                 label: 'Statistiken',
