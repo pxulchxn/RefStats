@@ -20,7 +20,13 @@ export class PersonalDashboardComponent implements OnInit, OnDestroy {
 
   barOptions: any;
 
-  pieData: any;
+  artData: any;
+
+  leagueMenData: any;
+
+  leagueWomenData: any;
+
+  leagueYouthData: any;
 
   pieOptions: any;
 
@@ -93,7 +99,7 @@ export class PersonalDashboardComponent implements OnInit, OnDestroy {
       ]
     };
 
-    this.pieData = {
+    this.artData = {
       labels: ['Herren', 'Frauen', 'Junioren'],
       datasets: [
         {
@@ -107,6 +113,67 @@ export class PersonalDashboardComponent implements OnInit, OnDestroy {
             documentStyle.getPropertyValue('--primary-600'),
             documentStyle.getPropertyValue('--primary-300'),
             documentStyle.getPropertyValue('--primary-200')
+          ]
+        }
+      ]
+    };
+
+    this.leagueMenData = {
+      labels: ['Landesliga', 'Landesklasse', 'Kreisoberliga', 'Kreisliga', '1.Kreisklasse'],
+      datasets: [
+        {
+          data: [4, 6, 22, 40, 3],
+          backgroundColor: [
+            documentStyle.getPropertyValue('--primary-700'),
+            documentStyle.getPropertyValue('--primary-400'),
+            documentStyle.getPropertyValue('--primary-100'),
+            documentStyle.getPropertyValue('--primary-400'),
+            documentStyle.getPropertyValue('--primary-100')
+          ],
+          hoverBackgroundColor: [
+            documentStyle.getPropertyValue('--primary-600'),
+            documentStyle.getPropertyValue('--primary-300'),
+            documentStyle.getPropertyValue('--primary-200'),
+            documentStyle.getPropertyValue('--primary-300'),
+            documentStyle.getPropertyValue('--primary-200')
+          ]
+        }
+      ]
+    };
+
+    this.leagueWomenData = {
+      labels: ['Kreisliga', '1.Kreisklasse'],
+      datasets: [
+        {
+          data: [4, 6],
+          backgroundColor: [
+            documentStyle.getPropertyValue('--primary-700'),
+            documentStyle.getPropertyValue('--primary-400')
+          ],
+          hoverBackgroundColor: [
+            documentStyle.getPropertyValue('--primary-600'),
+            documentStyle.getPropertyValue('--primary-300')
+          ]
+        }
+      ]
+    };
+
+    this.leagueYouthData = {
+      labels: ['Landesliga', 'Landesklasse', 'Kreisliga', '1.Kreisklasse'],
+      datasets: [
+        {
+          data: [4, 6, 22, 3],
+          backgroundColor: [
+            documentStyle.getPropertyValue('--primary-700'),
+            documentStyle.getPropertyValue('--primary-400'),
+            documentStyle.getPropertyValue('--primary-100'),
+            documentStyle.getPropertyValue('--primary-400')
+          ],
+          hoverBackgroundColor: [
+            documentStyle.getPropertyValue('--primary-600'),
+            documentStyle.getPropertyValue('--primary-300'),
+            documentStyle.getPropertyValue('--primary-200'),
+            documentStyle.getPropertyValue('--primary-300')
           ]
         }
       ]
