@@ -1,12 +1,8 @@
 import {Component, OnInit, ViewChild, ElementRef} from '@angular/core';
-import {MatchService} from 'src/app/program/service/customer.service';
+import {MatchService} from 'src/app/program/service/match.service';
 import {Table} from 'primeng/table';
 import {MessageService, ConfirmationService} from 'primeng/api';
 import {Match} from "../../../api/match";
-
-interface expandedRows {
-  [key: string]: boolean;
-}
 
 @Component({
   templateUrl: './matches.dashboard.component.html',
@@ -16,7 +12,7 @@ export class MatchesDashboardComponent implements OnInit {
 
   matches1: Match[] = [];
 
-  statuses: any[] = [];
+  function: any[] = [];
 
   loading: boolean = true;
 
@@ -34,7 +30,7 @@ export class MatchesDashboardComponent implements OnInit {
       this.matches1.forEach(match => match.date = new Date(match.date));
     });
 
-    this.statuses = [
+    this.function = [
       {label: 'Schiedsrichter', value: 'schiedsrichter'},
       {label: '1. Assistent', value: 'first_assistent'},
       {label: '2. Assistent', value: 'second_assistent'},

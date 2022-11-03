@@ -5,7 +5,7 @@ import {Match} from 'src/app/program/api/match';
 @Injectable({
   providedIn: 'root',
 })
-export class CustomerService {
+export class MatchService {
 
   constructor(private http: HttpClient) {
   }
