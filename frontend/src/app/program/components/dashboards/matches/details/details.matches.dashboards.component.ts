@@ -2,9 +2,9 @@ import {Component} from '@angular/core';
 import {MessageService, ConfirmationService} from 'primeng/api';
 
 @Component({
-  templateUrl: './matches.details.component.html',
+  templateUrl: './details.matches.dashboards.component.html',
   providers: [MessageService, ConfirmationService]
 })
-export class MatchesDetailsComponent {
+export class DetailsMatchesDashboardsComponent {
 
 }

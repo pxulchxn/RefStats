@@ -4,7 +4,12 @@ import { MatchesDashboardComponent } from './matches.dashboard.component';
 
 @NgModule({
   imports: [RouterModule.forChild([
-    { path: '', component: MatchesDashboardComponent }
+    { path: '', component: MatchesDashboardComponent },
+    {
+      path: 'details-matches',
+      data: {breadcrumb: 'Banking Dashboard'},
+      loadChildren: () => import('./details/details.matches.dashboards.module').then(m => m.DetailsMatchesDashboardsModule)
+    }
   ])],
   exports: [RouterModule]
 })

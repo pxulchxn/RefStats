@@ -1,8 +1,8 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {FormsModule} from '@angular/forms';
-import {MatchesDetailsComponent} from './matches.details.component';
-import {MatchesDetailsRoutingModule} from './matches.details-routing.module';
+import {DetailsMatchesDashboardsComponent} from './details.matches.dashboards.component';
+import {DetailsMatchesDashboardsRoutingModule} from './details.matches.dashboards-routing.module';
 import {TableModule} from 'primeng/table';
 import {ButtonModule} from 'primeng/button';
 import {InputTextModule} from 'primeng/inputtext';
@@ -18,7 +18,7 @@ import {RatingModule} from 'primeng/rating';
 @NgModule({
   imports: [
     CommonModule,
-    MatchesDetailsRoutingModule,
+    DetailsMatchesDashboardsRoutingModule,
     FormsModule,
     TableModule,
     RatingModule,
@@ -32,7 +32,7 @@ import {RatingModule} from 'primeng/rating';
     ProgressBarModule,
     ToastModule
   ],
-  declarations: [MatchesDetailsComponent]
+  declarations: [DetailsMatchesDashboardsComponent]
 })
-export class MatchesDetailsModule {
+export class DetailsMatchesDashboardsModule {
 }
