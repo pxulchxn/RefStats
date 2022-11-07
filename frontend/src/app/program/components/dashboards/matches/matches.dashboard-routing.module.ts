@@ -7,7 +7,7 @@ import { MatchesDashboardComponent } from './matches.dashboard.component';
     { path: '', component: MatchesDashboardComponent },
     {
       path: 'details-matches',
-      data: {breadcrumb: 'Banking Dashboard'},
+      data: {breadcrumb: 'Match Detail View'},
       loadChildren: () => import('./details/details.matches.dashboards.module').then(m => m.DetailsMatchesDashboardsModule)
     }
   ])],

@@ -7,4 +7,35 @@ import {MessageService, ConfirmationService} from 'primeng/api';
 })
 export class DetailsMatchesDashboardsComponent {
 
+  mannschaftsart: any[] = [];
+
+  league: any[] = [];
+
+  function: any[] = [];
+
+  value1: any[] = [];
+
+
+  ngOnInit() {
+    this.mannschaftsart = [
+      {name: 'Herren', code: 'men'},
+      {name: 'Frauen', code: 'women'},
+      {name: 'Junioren', code: 'youth'}
+    ];
+
+    this.league = [
+      {name: 'Landesliga', code: 'll'},
+      {name: 'Bezirksliga', code: 'bzl'},
+      {name: 'Kreisliga', code: 'kl'},
+      {name: '1. Kreisklasse', code: '1kkl'},
+      {name: '2. Kreisklasse', code: '2kkl'}
+    ]
+
+    this.function = [
+      {name: 'Schiedsrichter', code: 'referee'},
+      {name: '1. Assistent', code: 'first_assistent'},
+      {name: '2. Assistent', code: 'second_assistent'},
+      {name: '4. Offizieller', code: 'fourth_official'}
+    ]
+  }
 }

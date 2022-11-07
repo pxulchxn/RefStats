@@ -14,6 +14,10 @@ import {ProgressBarModule} from 'primeng/progressbar';
 import {ToastModule} from 'primeng/toast';
 import {SliderModule} from 'primeng/slider';
 import {RatingModule} from 'primeng/rating';
+import {FileUploadModule} from "primeng/fileupload";
+import {InputTextareaModule} from "primeng/inputtextarea";
+import {CalendarModule} from "primeng/calendar";
+import {InputNumberModule} from "primeng/inputnumber";
 
 @NgModule({
   imports: [
@@ -30,7 +34,11 @@ import {RatingModule} from 'primeng/rating';
     MultiSelectModule,
     DropdownModule,
     ProgressBarModule,
-    ToastModule
+    ToastModule,
+    FileUploadModule,
+    InputTextareaModule,
+    CalendarModule,
+    InputNumberModule
   ],
   declarations: [DetailsMatchesDashboardsComponent]
 })
