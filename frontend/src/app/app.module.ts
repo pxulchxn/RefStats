@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { TestComponent } from './test/test.component';
-import { AppLayoutModule } from "./layout/app.layout.module";
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {TestComponent} from './test/test.component';
+import {AppLayoutModule} from "./layout/app.layout.module";
 import {InputTextModule} from "primeng/inputtext";
 import {CheckboxModule} from "primeng/checkbox";
 import {ButtonModule} from "primeng/button";
@@ -27,4 +27,5 @@ import {RippleModule} from "primeng/ripple";
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
