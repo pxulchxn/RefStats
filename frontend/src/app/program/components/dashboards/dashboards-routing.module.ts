@@ -3,7 +3,6 @@ import {RouterModule} from '@angular/router';
 
 @NgModule({
   imports: [RouterModule.forChild([
-    /* Wieso geht es nur bei dashboard-banking? und nicht bei dashboard-ecoomerce oder so? */
     {
       path: 'banking',
       data: {breadcrumb: 'Banking Dashboard'},
@@ -23,7 +22,8 @@ import {RouterModule} from '@angular/router';
       path: 'matches',
       data: {breadcrumb: 'Matches Dashboard'},
       loadChildren: () => import('./matches/matches.dashboard.module').then(m => m.MatchesDashboardModule)
-    }
+    },
+    {path: '**', redirectTo: '/notfound'}
   ])],
   exports: [RouterModule]
 })

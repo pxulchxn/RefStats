@@ -20,6 +20,10 @@ const routes: Routes = [
         path: '',
         loadChildren: () => import('./program/components/settings/settings.module').then(m => m.SettingsModule)
       },
+      {
+        path: 'contact',
+        loadChildren: () => import('./program/components/contact/contact.module').then(m => m.ContactModule)
+      }
     ]
   }, {
     path: 'landing',
@@ -27,7 +31,11 @@ const routes: Routes = [
   }, {
     path: 'auth',
     loadChildren: () => import('./program/components/auth/auth.module').then(m => m.AuthModule)
-  }
+  }, {
+    path: 'notfound',
+    loadChildren: () => import('./program/components/notfound/notfound.module').then(m => m.NotfoundModule)
+  },
+  {path: '**', redirectTo: '/notfound'}
 ];
 
 @NgModule({
