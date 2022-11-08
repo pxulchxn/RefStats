@@ -9,13 +9,17 @@ const routes: Routes = [
     children: [
       {path: '', component: TestComponent},
       {
-        path: '',
+        path: 'dashboard',
         loadChildren: () => import('./program/components/dashboards/dashboards.module').then(m => m.DashboardsModule)
       },
       {
         path: '',
+        loadChildren: () => import('./program/components/blog/blog.module').then(m => m.BlogModule)
+      },
+      {
+        path: '',
         loadChildren: () => import('./program/components/settings/settings.module').then(m => m.SettingsModule)
-      }
+      },
     ]
   }, {
     path: 'landing',

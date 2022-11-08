@@ -5,22 +5,22 @@ import {RouterModule} from '@angular/router';
   imports: [RouterModule.forChild([
     /* Wieso geht es nur bei dashboard-banking? und nicht bei dashboard-ecoomerce oder so? */
     {
-      path: 'dashboard-banking',
+      path: 'banking',
       data: {breadcrumb: 'Banking Dashboard'},
       loadChildren: () => import('./ecommerce/ecommerce.dashboard.module').then(m => m.EcommerceDashboardModule)
     },
     {
-      path: 'dashboard-users',
+      path: 'users',
       data: {breadcrumb: 'Users Dashboard'},
       loadChildren: () => import('./users/users.dashboard.module').then(m => m.UsersDashboardModule)
     },
     {
-      path: 'dashboard-personal',
+      path: 'personal',
       data: {breadcrumb: 'Stats Dashboard'},
       loadChildren: () => import('./personal/personal.dashboard.module').then(m => m.PersonalDashboardModule)
     },
     {
-      path: 'dashboard-matches',
+      path: 'matches',
       data: {breadcrumb: 'Matches Dashboard'},
       loadChildren: () => import('./matches/matches.dashboard.module').then(m => m.MatchesDashboardModule)
     }

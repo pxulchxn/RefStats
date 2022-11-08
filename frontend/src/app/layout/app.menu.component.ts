@@ -29,12 +29,12 @@ export class AppMenuComponent implements OnInit {
               {
                 label: 'Übersicht',
                 icon: 'pi pi-fw pi-list',
-                routerLink: ['/dashboard-matches']
+                routerLink: ['/dashboard/matches']
               },
               {
                 label: 'Statistiken',
                 icon: 'pi pi-fw pi-chart-pie',
-                routerLink: ['/dashboard-personal']
+                routerLink: ['/dashboard/personal']
               }
             ]
           },
@@ -45,12 +45,12 @@ export class AppMenuComponent implements OnInit {
               {
                 label: 'Dashboard',
                 icon: 'pi pi-fw pi-info-circle',
-                routerLink: ['/dashboard-banking']
+                routerLink: ['/dashboard/banking']
               },
               {
                 label: 'Users',
                 icon: 'pi pi-fw pi-users',
-                routerLink: ['/dashboard-users']
+                routerLink: ['/dashboard/users']
               }
             ]
           }
