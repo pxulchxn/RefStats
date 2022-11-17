@@ -1,12 +1,5 @@
 <div class="card">
-    <p-dataView [value]="totalBlogs" [paginator]="true" [rows]="3" filterBy="title" [sortField]="sortField" [sortOrder]="-1" layout="grid">
-        <ng-template pTemplate="header">
-            <div class="flex flex-column sm:flex-row sm:align-items-center sm:justify-content-between gap-3">
-                <span class="text-xl text-900 font-semibold">Articles</span>
-                <p-dropdown [options]="sortOptions" [(ngModel)]="sortField" placeholder="Sort by" styleClass="w-full md:w-15rem"></p-dropdown>
-            </div>
-        </ng-template>
-
+    <p-dataView [value]="totalBlogs" [paginator]="true" [rows]="6" filterBy="title" [sortField]="sortField" [sortOrder]="-1" layout="grid">
         <ng-template let-blog pTemplate="gridItem">
             <div class="col-12 md:col-4">
                 <app-blog-list-card [blog]="blog"></app-blog-list-card>
@@ -15,7 +8,7 @@
     </p-dataView>
 </div>
 
-<div class="card">
+<!--<div class="card">
     <div class="surface-section px-4 py-8 md:px-6 lg:px-8">
         <div class="font-bold text-5xl text-900 mb-3">Recent Articles</div>
         <div class="text-700 text-xl line-height-3 mb-5">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
@@ -25,7 +18,7 @@
                 <div class="text-blue-600 font-medium my-2">Animals</div>
                 <div class="text-900 font-medium text-xl line-height-3 mb-4">Why Earth's most beloved creatures are headed toward extinction</div>
                 <div class="font-sm text-700 line-height-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </div>
                 <div class="flex mt-4">
                     <p-avatar image="assets/demo/images/avatar/circle/avatar-f-1.png" shape="circle"></p-avatar>
@@ -43,7 +36,7 @@
                 <div class="text-pink-600 font-medium my-2">Oxygen</div>
                 <div class="text-900 font-medium text-xl line-height-3 mb-4">Only one-third of tropical rainforests remain intact, study says </div>
                 <div class="font-sm text-700 line-height-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </div>
                 <div class="flex mt-4">
                     <p-avatar image="assets/demo/images/avatar/circle/avatar-f-2.png" shape="circle"></p-avatar>
@@ -61,7 +54,7 @@
                 <div class="text-orange-600 font-medium my-2">Nature</div>
                 <div class="text-900 font-medium text-xl line-height-3 mb-4">Does planting a tree really offset your carbon footprint?</div>
                 <div class="font-sm text-700 line-height-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </div>
                 <div class="flex mt-4">
                     <p-avatar image="assets/demo/images/avatar/circle/avatar-f-3.png" shape="circle"></p-avatar>
@@ -76,4 +69,4 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->

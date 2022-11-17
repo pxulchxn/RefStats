@@ -13,7 +13,7 @@ const routes: Routes = [
         loadChildren: () => import('./program/components/dashboards/dashboards.module').then(m => m.DashboardsModule)
       },
       {
-        path: '',
+        path: 'blog',
         loadChildren: () => import('./program/components/blog/blog.module').then(m => m.BlogModule)
       },
       {
@@ -23,6 +23,10 @@ const routes: Routes = [
       {
         path: 'contact',
         loadChildren: () => import('./program/components/contact/contact.module').then(m => m.ContactModule)
+      },
+      {
+        path: 'admin',
+        loadChildren: () => import('./program/components/admin/admin.module').then(m => m.AdminModule)
       }
     ]
   }, {

@@ -47,4 +47,8 @@ export class MatchesDashboardComponent implements OnInit {
     this.filter.nativeElement.value = '';
   }
 
+  routeToInfo(_event: Event) {
+
+  }
+
 }

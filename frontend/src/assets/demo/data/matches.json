@@ -20,6 +20,20 @@
       "match": "SV GW Waggum - FC Wenden 2",
       "league": "1. Kreisklasse",
       "function": "schiedsrichter"
+    },
+    {
+      "id": 4,
+      "date": "2022-11-05",
+      "match": "SV Stöckheim - TSV Germ. Lamme II-9er-",
+      "league": "Kreisliga",
+      "function": "schiedsrichter"
+    },
+    {
+      "id": 5,
+      "date": "2022-11-06",
+      "match": "BSV Ölper - VfL Bienrode",
+      "league": "Kreisliga",
+      "function": "schiedsrichter"
     }
   ]
 }
