@@ -1,12 +1,13 @@
 import {NgModule} from '@angular/core';
 import {RouterModule} from '@angular/router';
+import {ProfileRoutingModule} from "./profile/profile-routing.module";
 
 @NgModule({
   imports: [RouterModule.forChild([
     {
-      path: 'users',
+      path: 'profile',
       data: {breadcrumb: 'Users Dashboard'},
-      loadChildren: () => import('./users/users.admin.module').then(m => m.UsersAdminModule)
+      loadChildren: () => import('./profile/profile-routing.module').then(m => m.ProfileRoutingModule)
     },
     {
       path: 'blog-edit',

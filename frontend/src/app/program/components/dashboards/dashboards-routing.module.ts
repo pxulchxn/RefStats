@@ -4,11 +4,6 @@ import {RouterModule} from '@angular/router';
 @NgModule({
   imports: [RouterModule.forChild([
     {
-      path: 'users',
-      data: {breadcrumb: 'Users Dashboard'},
-      loadChildren: () => import('./users/users.dashboard.module').then(m => m.UsersDashboardModule)
-    },
-    {
       path: 'personal',
       data: {breadcrumb: 'Stats Dashboard'},
       loadChildren: () => import('./personal/personal.dashboard.module').then(m => m.PersonalDashboardModule)

@@ -55,7 +55,7 @@ export class AppMenuComponent implements OnInit {
               {
                 label: 'Users',
                 icon: 'pi pi-fw pi-users',
-                routerLink: ['/admin/users']
+                routerLink: ['/admin/profile/list']
               },
               {
                 label: 'New Post',
