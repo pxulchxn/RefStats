@@ -18,28 +18,30 @@ import {FileUploadModule} from "primeng/fileupload";
 import {InputTextareaModule} from "primeng/inputtextarea";
 import {CalendarModule} from "primeng/calendar";
 import {InputNumberModule} from "primeng/inputnumber";
+import {CheckboxModule} from "primeng/checkbox";
 
 @NgModule({
-  imports: [
-    CommonModule,
-    DetailsMatchesDashboardsRoutingModule,
-    FormsModule,
-    TableModule,
-    RatingModule,
-    ButtonModule,
-    SliderModule,
-    InputTextModule,
-    ToggleButtonModule,
-    RippleModule,
-    MultiSelectModule,
-    DropdownModule,
-    ProgressBarModule,
-    ToastModule,
-    FileUploadModule,
-    InputTextareaModule,
-    CalendarModule,
-    InputNumberModule
-  ],
+    imports: [
+        CommonModule,
+        DetailsMatchesDashboardsRoutingModule,
+        FormsModule,
+        TableModule,
+        RatingModule,
+        ButtonModule,
+        SliderModule,
+        InputTextModule,
+        ToggleButtonModule,
+        RippleModule,
+        MultiSelectModule,
+        DropdownModule,
+        ProgressBarModule,
+        ToastModule,
+        FileUploadModule,
+        InputTextareaModule,
+        CalendarModule,
+        InputNumberModule,
+        CheckboxModule
+    ],
   declarations: [DetailsMatchesDashboardsComponent]
 })
 export class DetailsMatchesDashboardsModule {

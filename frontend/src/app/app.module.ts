@@ -9,6 +9,7 @@ import {InputTextModule} from "primeng/inputtext";
 import {CheckboxModule} from "primeng/checkbox";
 import {ButtonModule} from "primeng/button";
 import {RippleModule} from "primeng/ripple";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {RippleModule} from "primeng/ripple";
     InputTextModule,
     CheckboxModule,
     ButtonModule,
-    RippleModule
+    RippleModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

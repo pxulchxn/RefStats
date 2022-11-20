@@ -15,6 +15,8 @@ export class DetailsMatchesDashboardsComponent {
 
   value1: any[] = [];
 
+  valCheck: boolean = false;
+
 
   ngOnInit() {
     this.mannschaftsart = [
@@ -38,4 +40,5 @@ export class DetailsMatchesDashboardsComponent {
       {name: '4. Offizieller', code: 'fourth_official'}
     ]
   }
+
 }

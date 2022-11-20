@@ -78,6 +78,14 @@
           <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100"></p-inputNumber>
         </div>
 
+        <!-- KARTEN TEAMOFFIZIELLE CHECKBOX -->
+        <div class="field mb-4 col-12">
+          <div class="field-checkbox">
+            <p-checkbox name="valCheck" value="New York" id="cardsT"></p-checkbox>
+            <label for="ny">Karten für Teamoffizielle</label>
+          </div>
+        </div>
+
         <!-- GELBE KARTEN TEAMOFFIZIELLE -->
         <div class="field mb-4 col-12 md:col-4">
           <label for="nickname" class="font-medium text-900">Gelbe Karten Teamoffizielle</label>
@@ -120,6 +128,19 @@
         <div class="field mb-4 col-12">
           <label for="bio" class="font-medium text-900">Notizen</label>
           <textarea id="bio" type="text" pInputTextarea rows="5" [autoResize]="true"></textarea>
+        </div>
+
+        <!-- BEOBACHTUNG CHECKBOX -->
+        <div class="field mb-4 col-12">
+          <div class="field-checkbox">
+            <p-checkbox name="valCheck" value="New York" id="ny"></p-checkbox>
+            <label for="ny">Beobachtung</label>
+          </div>
+        </div>
+
+        <div class="field mb-4 col-12">
+          <label for="beo" class="font-medium text-900">Note</label>
+          <input disabled id="beo" type="text" pInputText>
         </div>
 
         <!-- BESTÄTIGEN BUTTON -->
