@@ -17,6 +17,8 @@ export class NewMatchesDashboardsComponent {
 
   valCheck: boolean = false;
 
+  beo: boolean = false;
+
 
   ngOnInit() {
     this.mannschaftsart = [
@@ -39,6 +41,14 @@ export class NewMatchesDashboardsComponent {
       {name: '2. Assistent', code: 'second_assistent'},
       {name: '4. Offizieller', code: 'fourth_official'}
     ]
+  }
+
+  switchValCheck() {
+    this.valCheck = !this.valCheck;
+  }
+
+  switchBeo(){
+    this.beo = !this.beo;
   }
 
 }

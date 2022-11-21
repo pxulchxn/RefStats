@@ -19,6 +19,7 @@ import {InputTextareaModule} from "primeng/inputtextarea";
 import {CalendarModule} from "primeng/calendar";
 import {InputNumberModule} from "primeng/inputnumber";
 import {CheckboxModule} from "primeng/checkbox";
+import {PanelModule} from "primeng/panel";
 
 @NgModule({
     imports: [
@@ -40,7 +41,8 @@ import {CheckboxModule} from "primeng/checkbox";
         InputTextareaModule,
         CalendarModule,
         InputNumberModule,
-        CheckboxModule
+        CheckboxModule,
+        PanelModule
     ],
   declarations: [DetailsMatchesDashboardsComponent]
 })
