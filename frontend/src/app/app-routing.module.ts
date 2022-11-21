@@ -17,7 +17,7 @@ const routes: Routes = [
         loadChildren: () => import('./program/components/blog/blog.module').then(m => m.BlogModule)
       },
       {
-        path: '',
+        path: 'settings',
         loadChildren: () => import('./program/components/settings/settings.module').then(m => m.SettingsModule)
       },
       {
@@ -27,6 +27,10 @@ const routes: Routes = [
       {
         path: 'admin',
         loadChildren: () => import('./program/components/admin/admin.module').then(m => m.AdminModule)
+      },
+      {
+        path: 'aboutus',
+        loadChildren: () => import('./program/components/aboutus/aboutus-routing.module').then(m => m.AboutUsRoutingModule)
       }
     ]
   }, {

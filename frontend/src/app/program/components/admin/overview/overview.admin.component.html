@@ -1,0 +1,97 @@
+<div class="grid">
+  <!-- SPIELE -->
+  <div class="col-12 md:col-6 xl:col-3">
+    <div class="card h-full">
+      <span class="font-semibold text-lg">User</span>
+      <div class="flex justify-content-between align-items-start mt-3">
+        <div class="w-6">
+          <span class="text-4xl font-bold text-900">1</span>
+          <div class="text-green-500">
+            <span class="font-medium">+0%</span>
+            <i class="pi pi-arrow-up text-xs ml-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPIELE SCHIEDSRICHTER -->
+  <div class="col-12 md:col-6 xl:col-3">
+    <div class="card h-full">
+      <span class="font-semibold text-lg">Eingetragene Spiele</span>
+      <div class="flex justify-content-between align-items-start mt-3">
+        <div class="w-6">
+          <span class="text-4xl font-bold text-900">6</span>
+          <div class="text-green-500">
+            <span class="font-medium">+0%</span>
+            <i class="pi pi-arrow-up text-xs ml-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPIELE ASSISTENT -->
+  <div class="col-12 md:col-6 xl:col-3">
+    <div class="card h-full">
+      <span class="font-semibold text-lg">Altersdurchschnitt</span>
+      <div class="flex justify-content-between align-items-start mt-3">
+        <div class="w-12">
+          <span class="text-4xl font-bold text-900">33,5 Jahre</span>
+          <div class="text-pink-500">
+            <span class="font-medium">+0%</span>
+            <i class="pi pi-arrow-down text-xs ml-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VERGLEICH ZUR LETZTEN SAISON -->
+  <div class="col-12 md:col-6 xl:col-3">
+    <div class="card h-full">
+      <span class="font-semibold text-lg">Vergleich zur Vorsaison</span>
+      <div class="flex justify-content-between align-items-start mt-3">
+        <div class="w-6">
+          <span class="text-4xl font-bold text-900">34</span>
+          <div class="text-pink-500">
+            <span class="font-medium">- 5 Spiele</span>
+            <i class="pi pi-arrow-down text-xs ml-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MANNSCHAFTSART -->
+  <div class="col-12 xl:col-3">
+    <div class="card h-full">
+      <div class="text-900 text-xl font-semibold mb-6">Manschaftsart</div>
+      <p-chart type="pie" [data]="artData" [options]="pieOptions" height="300px"></p-chart>
+    </div>
+  </div>
+
+  <!-- SPIELKLASSEN HERREN -->
+  <div class="col-12 xl:col-3">
+    <div class="card h-full">
+      <div class="text-900 text-xl font-semibold mb-6">Ligen Herren</div>
+      <p-chart type="pie" [data]="leagueMenData" [options]="pieOptions" height="300px"></p-chart>
+    </div>
+  </div>
+
+  <!-- SPIELKLASSEN FRAUEN -->
+  <div class="col-12 xl:col-3">
+    <div class="card h-full">
+      <div class="text-900 text-xl font-semibold mb-6">Ligen Frauen</div>
+      <p-chart type="pie" [data]="leagueWomenData" [options]="pieOptions" height="300px"></p-chart>
+    </div>
+  </div>
+
+  <!-- SPIELKLASSEN JUNIOREN -->
+  <div class="col-12 xl:col-3">
+    <div class="card h-full">
+      <div class="text-900 text-xl font-semibold mb-6">Ligen Junioren</div>
+      <p-chart type="pie" [data]="leagueYouthData" [options]="pieOptions" height="300px"></p-chart>
+    </div>
+  </div>
+</div>
