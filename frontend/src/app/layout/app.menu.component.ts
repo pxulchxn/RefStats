@@ -41,12 +41,12 @@ export class AppMenuComponent implements OnInit {
             icon: 'pi pi-fw pi-comment',
             routerLink: ['/blog/list']
           }, {
-            label: 'Contact Us',
+            label: 'Kontaktiere uns',
             icon: 'pi pi-fw pi-phone',
             routerLink: ['/contact']
           },
           {
-            label: 'About Us',
+            label: 'Über uns',
             icon: 'pi pi-fw pi-user',
             routerLink: ['/aboutus']
           }
@@ -57,17 +57,17 @@ export class AppMenuComponent implements OnInit {
         icon: 'pi pi-home',
         items: [
           {
-            label: 'Overview',
+            label: 'Überblick',
             icon: 'pi pi-fw pi-info-circle',
             routerLink: ['/admin/overview']
           },
           {
-            label: 'Users',
+            label: 'User Management',
             icon: 'pi pi-fw pi-users',
             routerLink: ['/admin/profile/list']
           },
           {
-            label: 'New Post',
+            label: 'Neuer Post',
             icon: 'pi pi-fw pi-pencil',
             routerLink: ['/admin/blog-edit']
           }

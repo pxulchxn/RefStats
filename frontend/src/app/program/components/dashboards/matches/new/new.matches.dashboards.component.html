@@ -1,0 +1,152 @@
+<div class="card">
+  <span class="text-900 text-xl font-bold mb-4 block">Neues Spiel</span>
+  <div class="grid">
+    <div class="col-12 lg:col-12">
+      <div class="grid formgrid p-fluid">
+        <!-- SPIEL -->
+        <div class="field mb-4 col-12">
+          <label for="nickname" class="font-medium text-900">Spiel</label>
+          <input id="nickname" type="text" pInputText>
+        </div>
+
+        <!-- DATUM -->
+        <div class="field mb-4 col-12">
+          <label for="email" class="font-medium text-900">Datum</label>
+          <p-calendar [showIcon]="true" inputId="icon"></p-calendar>
+        </div>
+
+        <!-- MANNSCHAFTSART -->
+        <div class="field mb-4 col-12 md:col-4">
+          <label for="country" class="font-medium text-900">Mannschaftsart</label>
+          <p-dropdown inputId="country" [options]="mannschaftsart" optionLabel="name" [filter]="true" filterBy="name"
+                      [showClear]="true" placeholder="Select a Mannschaftsart">
+            <ng-template let-country pTemplate="item">
+              <div class="flex align-items-center">
+                <div>{{country.name}}</div>
+              </div>
+            </ng-template>
+          </p-dropdown>
+        </div>
+
+        <!-- LIGA -->
+        <div class="field mb-4 col-12 md:col-4">
+          <label for="country" class="font-medium text-900">Liga</label>
+          <p-dropdown inputId="country" [options]="league" optionLabel="name" [filter]="true" filterBy="name"
+                      [showClear]="true" placeholder="Select a Liga">
+            <ng-template let-country pTemplate="item">
+              <div class="flex align-items-center">
+                <div>{{country.name}}</div>
+              </div>
+            </ng-template>
+          </p-dropdown>
+        </div>
+
+        <!-- FUNKTION -->
+        <div class="field mb-4 col-12 md:col-4">
+          <label for="country" class="font-medium text-900">Funktion</label>
+          <p-dropdown inputId="country" [options]="function" optionLabel="name" [filter]="true" filterBy="name"
+                      [showClear]="true" placeholder="Select a Funktion">
+            <ng-template let-country pTemplate="item">
+              <div class="flex align-items-center">
+                <div>{{country.name}}</div>
+              </div>
+            </ng-template>
+          </p-dropdown>
+        </div>
+
+        <!-- GELBE KARTEN -->
+        <div class="field mb-4 col-12 md:col-4">
+          <label for="nickname" class="font-medium text-900">Gelbe Karten</label>
+          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100"></p-inputNumber>
+        </div>
+
+        <!-- GELB-ROTE KARTEN -->
+        <div class="field mb-4 col-12 md:col-4">
+          <label for="nickname" class="font-medium text-900">Gelb-Rote Karten</label>
+          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100"></p-inputNumber>
+        </div>
+
+        <!-- ROTE KARTEN -->
+        <div class="field mb-4 col-12 md:col-4">
+          <label for="nickname" class="font-medium text-900">Rote Karten</label>
+          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100"></p-inputNumber>
+        </div>
+
+        <!-- KARTEN TEAMOFFIZIELLE CHECKBOX -->
+        <div class="field mb-4 col-12">
+          <div class="field-checkbox">
+            <p-checkbox name="valCheck" value="New York" id="cardsT"></p-checkbox>
+            <label for="ny">Karten für Teamoffizielle</label>
+          </div>
+        </div>
+
+        <!-- GELBE KARTEN TEAMOFFIZIELLE -->
+        <div class="field mb-4 col-12 md:col-4">
+          <label for="nickname" class="font-medium text-900">Gelbe Karten Teamoffizielle</label>
+          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100"></p-inputNumber>
+        </div>
+
+        <!-- GELB-ROTE KARTEN TEAMOFFIZIELLE -->
+        <div class="field mb-4 col-12 md:col-4">
+          <label for="nickname" class="font-medium text-900">Gelb-Rote Karten Teamoffizielle</label>
+          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100"></p-inputNumber>
+        </div>
+
+        <!-- ROTE KARTEN TEAMOFFIZIELLE -->
+        <div class="field mb-4 col-12 md:col-4">
+          <label for="nickname" class="font-medium text-900">Rote Karten Teamoffizielle</label>
+          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100"></p-inputNumber>
+        </div>
+
+        <!-- ZUSCHAUER -->
+        <div class="field mb-4 col-12 md:col-4">
+          <label for="nickname" class="font-medium text-900">Zuschauer</label>
+          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="200000"></p-inputNumber>
+        </div>
+
+        <!-- SPESEN -->
+        <div class="field mb-4 col-12 md:col-4">
+          <label for="nickname" class="font-medium text-900">Spesen</label>
+          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100" [minFractionDigits]="2"
+                         [maxFractionDigits]="2"></p-inputNumber>
+        </div>
+
+        <!-- FAHRGELD -->
+        <div class="field mb-4 col-12 md:col-4">
+          <label for="nickname" class="font-medium text-900">Fahrgeld</label>
+          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100" [minFractionDigits]="2"
+                         [maxFractionDigits]="2"></p-inputNumber>
+        </div>
+
+        <!-- NOTIZEN -->
+        <div class="field mb-4 col-12">
+          <label for="bio" class="font-medium text-900">Notizen</label>
+          <textarea id="bio" type="text" pInputTextarea rows="5" [autoResize]="true"></textarea>
+        </div>
+
+        <!-- BEOBACHTUNG CHECKBOX -->
+        <div class="field mb-4 col-12">
+          <div class="field-checkbox">
+            <p-checkbox name="valCheck" value="New York" id="ny"></p-checkbox>
+            <label for="ny">Beobachtung</label>
+          </div>
+        </div>
+
+        <div class="field mb-4 col-12">
+          <label for="beo" class="font-medium text-900">Note</label>
+          <input disabled id="beo" type="text" pInputText>
+        </div>
+
+        <!-- BESTÄTIGEN BUTTON -->
+        <div class="field mb-4 col-12 md:col-3">
+          <button [routerLink]="'../../matches'" pButton pRipple type="button" label="Bestätigen" class="p-button-outlined p-button-success"></button>
+        </div>
+
+        <!-- ABBRECHEN BUTTON -->
+        <div class="field mb-4 col-12 md:col-3">
+          <button [routerLink]="'../../matches'" pButton pRipple type="button" label="Abbrechen" class="p-button-outlined p-button-danger"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
