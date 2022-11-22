@@ -4,22 +4,22 @@
     <div class="col-12 lg:col-12">
       <div class="grid formgrid p-fluid">
         <!-- SPIEL -->
-        <div class="field mb-4 col-12">
+        <div class="field mb-4 col-12 md:col-8">
           <label for="nickname" class="font-medium text-900">Spiel</label>
           <input id="nickname" type="text" pInputText>
         </div>
 
         <!-- DATUM -->
-        <div class="field mb-4 col-12">
+        <div class="field mb-4 col-12 md:col-4">
           <label for="email" class="font-medium text-900">Datum</label>
-          <p-calendar [showIcon]="true" inputId="icon"></p-calendar>
+          <p-calendar dateFormat="dd.mm.yy" [firstDayOfWeek]="1" [showIcon]="true" inputId="icon"></p-calendar>
         </div>
 
         <!-- MANNSCHAFTSART -->
         <div class="field mb-4 col-12 md:col-4">
           <label for="country" class="font-medium text-900">Mannschaftsart</label>
           <p-dropdown inputId="country" [options]="mannschaftsart" optionLabel="name" [filter]="true" filterBy="name"
-                      [showClear]="true" placeholder="Select a Mannschaftsart">
+                      [showClear]="true" placeholder="Wähle eine Mannschaftsart">
             <ng-template let-country pTemplate="item">
               <div class="flex align-items-center">
                 <div>{{country.name}}</div>
@@ -32,7 +32,7 @@
         <div class="field mb-4 col-12 md:col-4">
           <label for="country" class="font-medium text-900">Liga</label>
           <p-dropdown inputId="country" [options]="league" optionLabel="name" [filter]="true" filterBy="name"
-                      [showClear]="true" placeholder="Select a Liga">
+                      [showClear]="true" placeholder="Wähle eine Liga">
             <ng-template let-country pTemplate="item">
               <div class="flex align-items-center">
                 <div>{{country.name}}</div>
@@ -45,7 +45,7 @@
         <div class="field mb-4 col-12 md:col-4">
           <label for="country" class="font-medium text-900">Funktion</label>
           <p-dropdown inputId="country" [options]="function" optionLabel="name" [filter]="true" filterBy="name"
-                      [showClear]="true" placeholder="Select a Funktion">
+                      [showClear]="true" placeholder="Wähle eine Funktion">
             <ng-template let-country pTemplate="item">
               <div class="flex align-items-center">
                 <div>{{country.name}}</div>
@@ -73,7 +73,7 @@
         </div>
 
         <!-- KARTEN TEAMOFFIZIELLE CHECKBOX -->
-        <div class="field mb-4 col-12">
+        <div class="field col-12">
           <div class="field-checkbox">
             <p-checkbox name="valCheck" value="valCheck" id="valCheck" (click)="switchValCheck()"></p-checkbox>
             <label for="ny">Karten für Teamoffizielle</label>
@@ -128,14 +128,19 @@
         </div>
 
         <!-- BEOBACHTUNG CHECKBOX -->
-        <div class="field mb-4 col-12">
+        <div class="field col-12">
           <div class="field-checkbox">
             <p-checkbox name="valCheck" value="New York" id="ny" (click)="switchBeo()"></p-checkbox>
             <label for="ny">Beobachtung</label>
           </div>
         </div>
 
-        <div class="field mb-4 col-12" style="display:{{!beo ? 'none' : ''}}">
+        <div class="field mb-4 col-6" style="display:{{!beo ? 'none' : ''}}">
+          <label for="beo" class="font-medium text-900">Beobachter</label>
+          <input id="nickname" type="text" pInputText>
+        </div>
+
+        <div class="field mb-4 col-6" style="display:{{!beo ? 'none' : ''}}">
           <label for="beo" class="font-medium text-900">Punkte</label>
           <p-inputNumber [disabled]="!beo" mode="decimal" [showButtons]="false" [min]="0" [max]="500"
                          [minFractionDigits]="0"
@@ -144,7 +149,7 @@
 
         <!-- BESTÄTIGEN BUTTON -->
         <div class="field mb-4 col-12 md:col-3">
-          <button [routerLink]="'../../matches'" pButton pRipple type="button" label="Bestätigen"
+          <button [routerLink]="'../../matches'" pButton pRipple type="button" label="Speichern"
                   class="p-button-outlined p-button-success"></button>
         </div>
 
