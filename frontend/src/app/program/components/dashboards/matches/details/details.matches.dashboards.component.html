@@ -1,12 +1,149 @@
-<div class="grid p-fluid">
+<div class="grid">
   <div class="col-12">
-    <div class="card card-w-title flex flex-wrap">
-      <div class="col-12 h-full">
-        <h5>TabMenu</h5>
-        <p-tabMenu styleClass="mb-5" [model]="routeItems"></p-tabMenu>
-      </div>
-      <div class="col-12 md:col-4 mt-5 md:mt-0">
-        <router-outlet></router-outlet>
+    <div class="card">
+      <h5>Detailed Match View</h5>
+      <p-tabView orientation="left">
+
+        <!-- SPIELDATEN -->
+        <p-tabPanel header="Spieldaten" class="line-height-3 m-0">
+          <div class="grid formgrid p-fluid">
+
+            <!-- SPIEL -->
+            <div class="field col-12 md:col-8">
+              <h6>Spiel</h6>
+              <p>Eintracht Braunschweig II - Vfl Osnabrück II</p>
+            </div>
+
+            <!-- DATUM -->
+            <div class="field col-12 md:col-4">
+              <h6>Datum</h6>
+              <p>06.11.2022</p>
+            </div>
+
+            <!-- MANNSCHAFTSART -->
+            <div class="field col-12 md:col-4">
+              <h6>Mannschaftsart</h6>
+              <p>Herren</p>
+            </div>
+
+            <!-- LIGA -->
+            <div class="field col-12 md:col-4">
+              <h6>Liga</h6>
+              <p>Kreisliga</p>
+            </div>
+
+            <!-- FUNKTION -->
+            <div class="field col-12 md:col-4">
+              <h6>Funktion</h6>
+              <p>2. Assitent</p>
+            </div>
+          </div>
+        </p-tabPanel>
+
+        <!-- KARTEN -->
+        <p-tabPanel header="Karten" class="line-height-3 m-0">
+          <div class="grid formgrid p-fluid">
+
+            <!-- GELBE KARTEN -->
+            <div class="field col-12 md:col-4">
+              <h6>Gelbe Karten</h6>
+              <p>3</p>
+            </div>
+
+            <!-- GELB-ROTE KARTEN -->
+            <div class="field col-12 md:col-4">
+              <h6>Gelb-Rote Karten</h6>
+              <p>1</p>
+            </div>
+
+            <!-- ROTE KARTEN -->
+            <div class="field col-12 md:col-4">
+              <h6>Rote Karten</h6>
+              <p>0</p>
+            </div>
+
+            <!-- GELBE KARTEN TEAMOFFIZIELLE -->
+            <div class="field col-12 md:col-4">
+              <h6>Gelbe Karten Teamoffizielle</h6>
+              <p>0</p>
+            </div>
+
+            <!-- GELB-ROTE KARTEN TEAMOFFIZIELLE -->
+            <div class="field col-12 md:col-4">
+              <h6>Gelb-Rote Karten Teamoffizielle</h6>
+              <p>0</p>
+            </div>
+
+            <!-- ROTE KARTEN TEAMOFFIZIELLE -->
+            <div class="field col-12 md:col-4">
+              <h6>Rote Karten Teamoffizielle</h6>
+              <p>0</p>
+            </div>
+          </div>
+        </p-tabPanel>
+
+        <!-- WEITERE SPIELDATEN -->
+        <p-tabPanel header="Weitere Spieldaten" class="line-height-3 m-0">
+          <div class="grid formgrid p-fluid">
+
+            <!-- ZUSCHAUER -->
+            <div class="field col-12 md:col-4">
+              <h6>Zuschauer</h6>
+              <p>34</p>
+            </div>
+
+            <!-- SPESEN -->
+            <div class="field col-12 md:col-4">
+              <h6>Spesen</h6>
+              <p>25,00€</p>
+            </div>
+
+            <!-- FAHRGELD -->
+            <div class="field col-12 md:col-4">
+              <h6>Fahrtkosten</h6>
+              <p>5,60€</p>
+            </div>
+          </div>
+        </p-tabPanel>
+
+        <!-- BEOBACHTUNG -->
+        <p-tabPanel header="Beobachtung" class="line-height-3 m-0">
+          <div class="grid formgrid p-fluid">
+
+            <!-- BEOBACHTER -->
+            <div class="field col-12 md:col-8">
+              <h6>Beobachter</h6>
+              <p>Test Person</p>
+            </div>
+
+            <!-- BEOBACHTUNG Punkte -->
+            <div class="field col-12 md:col-4">
+              <h6>Punkte</h6>
+              <p>60</p>
+            </div>
+          </div>
+        </p-tabPanel>
+
+        <!-- SONSTIGES -->
+        <p-tabPanel header="Sonstiges" class="line-height-3 m-0">
+          <div class="grid formgrid p-fluid">
+
+            <!-- NOTIZEN -->
+            <div class="field col-12">
+              <h6>Notizen</h6>
+              <p>Hier stehen meine ganzen Notizen, die ich zu diesem Spiel gemacht habe.</p>
+            </div>
+          </div>
+        </p-tabPanel>
+      </p-tabView>
+      <div class="col-12 lg:col-12">
+        <div class="grid formgrid p-fluid">
+          <!-- ZURÜCK BUTTON -->
+          <div class="field col-12 md:col-3">
+            <button [routerLink]="'../../matches'" pButton pRipple type="button" label="Zurück"
+                    class="p-button-outlined p-button-danger"></button>
+          </div>
+        </div>
       </div>
     </div>
   </div>

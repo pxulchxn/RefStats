@@ -42,10 +42,10 @@ export class DetailsMatchesDashboardsComponent implements OnInit {
     });
 
     this.routeItems = [
-      { label: 'Personal', routerLink: 'personal' },
-      { label: 'Seat', routerLink: 'seat' },
-      { label: 'Payment', routerLink: 'payment' },
-      { label: 'Confirmation', routerLink: 'confirmation' },
+      { label: 'Personal', routerLink: '' },
+      { label: 'Seat', routerLink: '' },
+      { label: 'Payment', routerLink: '' },
+      { label: 'Confirmation', routerLink: '' },
     ];
 
     this.mannschaftsart = [
