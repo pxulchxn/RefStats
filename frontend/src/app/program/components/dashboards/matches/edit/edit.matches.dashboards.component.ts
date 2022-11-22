@@ -1,5 +1,7 @@
 import {Component} from '@angular/core';
 import {MessageService, ConfirmationService} from 'primeng/api';
+import {Customer} from "../../../../api/customer";
+import {CustomerService} from "../../../../service/customer.service";
 
 @Component({
   templateUrl: './edit.matches.dashboards.component.html',
@@ -17,6 +19,11 @@ export class EditMatchesDashboardsComponent {
 
   valCheck: boolean = false;
 
+  customers1: Customer[] = [];
+
+  loading: boolean = true;
+
+  constructor(private customerService: CustomerService) { }
 
   ngOnInit() {
     this.mannschaftsart = [
@@ -39,6 +46,14 @@ export class EditMatchesDashboardsComponent {
       {name: '2. Assistent', code: 'second_assistent'},
       {name: '4. Offizieller', code: 'fourth_official'}
     ]
+
+    this.customerService.getCustomersLarge().then(customers => {
+      this.customers1 = customers;
+      this.loading = false;
+
+      // @ts-ignore
+      this.customers1.forEach(customer => customer.date = new Date(customer.date));
+    });
   }
 
 }

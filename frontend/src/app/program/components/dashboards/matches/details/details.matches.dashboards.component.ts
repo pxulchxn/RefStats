@@ -1,5 +1,5 @@
 import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
-import {MessageService, ConfirmationService} from 'primeng/api';
+import {MessageService, ConfirmationService, MenuItem} from 'primeng/api';
 import {Match} from "../../../../api/match";
 import {MatchService} from "../../../../service/match.service";
 import {Table} from "primeng/table";
@@ -24,6 +24,8 @@ export class DetailsMatchesDashboardsComponent implements OnInit {
 
   loading: boolean = true;
 
+  routeItems: MenuItem[] = [];
+
   @ViewChild('filter') filter!: ElementRef;
 
   constructor(private matchService: MatchService) {
@@ -38,6 +40,13 @@ export class DetailsMatchesDashboardsComponent implements OnInit {
       // @ts-ignore
       this.matches1.forEach(match => match.date = new Date(match.date));
     });
+
+    this.routeItems = [
+      { label: 'Personal', routerLink: 'personal' },
+      { label: 'Seat', routerLink: 'seat' },
+      { label: 'Payment', routerLink: 'payment' },
+      { label: 'Confirmation', routerLink: 'confirmation' },
+    ];
 
     this.mannschaftsart = [
       {name: 'Herren', code: 'men'},

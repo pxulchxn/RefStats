@@ -20,6 +20,9 @@ import {CalendarModule} from "primeng/calendar";
 import {InputNumberModule} from "primeng/inputnumber";
 import {CheckboxModule} from "primeng/checkbox";
 import {PanelModule} from "primeng/panel";
+import {TabViewModule} from "primeng/tabview";
+import {TabMenuModule} from "primeng/tabmenu";
+import {StepsModule} from "primeng/steps";
 
 @NgModule({
   imports: [
@@ -42,7 +45,10 @@ import {PanelModule} from "primeng/panel";
     CalendarModule,
     InputNumberModule,
     CheckboxModule,
-    PanelModule
+    PanelModule,
+    TabViewModule,
+    TabMenuModule,
+    StepsModule
   ],
   declarations: [DetailsMatchesDashboardsComponent]
 })

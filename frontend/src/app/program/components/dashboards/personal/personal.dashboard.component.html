@@ -6,10 +6,10 @@
       <div class="flex justify-content-between align-items-start mt-3">
         <div class="w-6">
           <span class="text-4xl font-bold text-900">101</span>
-          <div class="text-green-500">
+          <!--<div class="text-green-500">
             <span class="font-medium">+0%</span>
             <i class="pi pi-arrow-up text-xs ml-2"></i>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
@@ -22,10 +22,10 @@
       <div class="flex justify-content-between align-items-start mt-3">
         <div class="w-6">
           <span class="text-4xl font-bold text-900">67</span>
-          <div class="text-green-500">
+          <!--<div class="text-green-500">
             <span class="font-medium">+0%</span>
             <i class="pi pi-arrow-up text-xs ml-2"></i>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
@@ -38,36 +38,100 @@
       <div class="flex justify-content-between align-items-start mt-3">
         <div class="w-12">
           <span class="text-4xl font-bold text-900">34</span>
-          <div class="text-pink-500">
+          <!--<div class="text-pink-500">
             <span class="font-medium">+0%</span>
             <i class="pi pi-arrow-down text-xs ml-2"></i>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
   </div>
 
-  <!-- VERGLEICH ZUR LETZTEN SAISON -->
+  <!-- BEOBACHTUNG SCHIEDSRICHTER -->
   <div class="col-12 md:col-6 xl:col-3">
     <div class="card h-full">
-      <span class="font-semibold text-lg">Vergleich zur Vorsaison</span>
+      <span class="font-semibold text-lg">⌀ Beobachtung Schiedsrichter</span>
       <div class="flex justify-content-between align-items-start mt-3">
         <div class="w-6">
-          <span class="text-4xl font-bold text-900">34</span>
-          <div class="text-pink-500">
-            <span class="font-medium">- 5 Spiele</span>
+          <span class="text-4xl font-bold text-900">340,0</span>
+          <!--<div class="text-pink-500">
+            <span class="font-medium"></span>
             <i class="pi pi-arrow-down text-xs ml-2"></i>
-          </div>
+          </div>-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GELBE KARTEN -->
+  <div class="col-12 md:col-6 xl:col-3">
+    <div class="card h-full">
+      <span class="font-semibold text-lg">Gelbe Karten</span>
+      <div class="flex justify-content-between align-items-start mt-3">
+        <div class="w-6">
+          <span class="text-4xl font-bold text-900">20</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GELB-ROTE KARTEN -->
+  <div class="col-12 md:col-6 xl:col-3">
+    <div class="card h-full">
+      <span class="font-semibold text-lg">Gelb-Rote Karten</span>
+      <div class="flex justify-content-between align-items-start mt-3">
+        <div class="w-6">
+          <span class="text-4xl font-bold text-900">2</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROTE KARTEN -->
+  <div class="col-12 md:col-6 xl:col-3">
+    <div class="card h-full">
+      <span class="font-semibold text-lg">Rote Karten</span>
+      <div class="flex justify-content-between align-items-start mt-3">
+        <div class="w-12">
+          <span class="text-4xl font-bold text-900">1</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BEOBACHTUNG ASSISTENT -->
+  <div class="col-12 md:col-6 xl:col-3">
+    <div class="card h-full">
+      <span class="font-semibold text-lg">⌀ Beobachtung Assistent</span>
+      <div class="flex justify-content-between align-items-start mt-3">
+        <div class="w-6">
+          <span class="text-4xl font-bold text-900">60,0</span>
+          <!--<div class="text-pink-500">
+            <span class="font-medium"></span>
+            <i class="pi pi-arrow-down text-xs ml-2"></i>
+          </div>-->
         </div>
       </div>
     </div>
   </div>
 
   <!-- SPIELE PRO SAISON -->
-  <div class="col-12 xl:col-9">
+  <div class="col-12 xl:col-6">
     <div class="card h-full">
       <div class="flex align-items-start justify-content-between mb-6">
         <span class="text-900 text-xl font-semibold">Spiele pro Saison </span>
+        <p-dropdown [options]="weeks" [(ngModel)]="selectedWeek" styleClass="w-10rem" optionLabel="label"
+                    (onChange)="onWeekChange()"></p-dropdown>
+      </div>
+      <p-chart type="bar" [data]="barData" [options]="barOptions" height="300px"></p-chart>
+    </div>
+  </div>
+
+  <!-- KARTEN PRO SAISON -->
+  <div class="col-12 xl:col-6">
+    <div class="card h-full">
+      <div class="flex align-items-start justify-content-between mb-6">
+        <span class="text-900 text-xl font-semibold">Karten pro Saison </span>
         <p-dropdown [options]="weeks" [(ngModel)]="selectedWeek" styleClass="w-10rem" optionLabel="label"
                     (onChange)="onWeekChange()"></p-dropdown>
       </div>
