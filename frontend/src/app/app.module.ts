@@ -10,6 +10,7 @@ import {CheckboxModule} from "primeng/checkbox";
 import {ButtonModule} from "primeng/button";
 import {RippleModule} from "primeng/ripple";
 import {FormsModule} from "@angular/forms";
+import {PanelModule} from "primeng/panel";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {FormsModule} from "@angular/forms";
     CheckboxModule,
     ButtonModule,
     RippleModule,
-    FormsModule
+    FormsModule,
+    PanelModule
   ],
   providers: [],
   bootstrap: [AppComponent]

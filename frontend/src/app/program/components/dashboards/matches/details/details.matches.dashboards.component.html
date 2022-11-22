@@ -1,7 +1,7 @@
 <div class="card">
   <span class="text-900 text-xl font-bold mb-4 block">Detailed Match View</span>
-  <div class="grid" [value]="matches1">
-    <p-panel header="Spieldaten" [toggleable]="true" class="col-12">
+  <div class="grid">
+    <p-panel #dt1 [value]="matches1" [loading]="loading" header="Spieldaten" [toggleable]="true" class="col-12">
       <div class="col-12 lg:col-12">
         <div class="grid formgrid p-fluid">
           <!-- SPIEL -->

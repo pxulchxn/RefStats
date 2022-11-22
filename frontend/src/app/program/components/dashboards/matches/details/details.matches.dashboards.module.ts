@@ -22,28 +22,28 @@ import {CheckboxModule} from "primeng/checkbox";
 import {PanelModule} from "primeng/panel";
 
 @NgModule({
-    imports: [
-        CommonModule,
-        DetailsMatchesDashboardsRoutingModule,
-        FormsModule,
-        TableModule,
-        RatingModule,
-        ButtonModule,
-        SliderModule,
-        InputTextModule,
-        ToggleButtonModule,
-        RippleModule,
-        MultiSelectModule,
-        DropdownModule,
-        ProgressBarModule,
-        ToastModule,
-        FileUploadModule,
-        InputTextareaModule,
-        CalendarModule,
-        InputNumberModule,
-        CheckboxModule,
-        PanelModule
-    ],
+  imports: [
+    CommonModule,
+    DetailsMatchesDashboardsRoutingModule,
+    FormsModule,
+    TableModule,
+    RatingModule,
+    ButtonModule,
+    SliderModule,
+    InputTextModule,
+    ToggleButtonModule,
+    RippleModule,
+    MultiSelectModule,
+    DropdownModule,
+    ProgressBarModule,
+    ToastModule,
+    FileUploadModule,
+    InputTextareaModule,
+    CalendarModule,
+    InputNumberModule,
+    CheckboxModule,
+    PanelModule
+  ],
   declarations: [DetailsMatchesDashboardsComponent]
 })
 export class DetailsMatchesDashboardsModule {
