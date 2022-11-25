@@ -104,21 +104,21 @@
         <!-- ZUSCHAUER -->
         <div class="field mb-4 col-12 md:col-4">
           <label for="nickname" class="font-medium text-900">Zuschauer</label>
-          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="200000"></p-inputNumber>
+          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="200000" locale="de-DE"></p-inputNumber>
         </div>
 
         <!-- SPESEN -->
         <div class="field mb-4 col-12 md:col-4">
           <label for="nickname" class="font-medium text-900">Spesen</label>
-          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100" [minFractionDigits]="2"
-                         [maxFractionDigits]="2"></p-inputNumber>
+          <p-inputNumber mode="currency" [showButtons]="false" [min]="0" [max]="100" [minFractionDigits]="2"
+                         [maxFractionDigits]="2" currency="EUR" locale="de-DE"></p-inputNumber>
         </div>
 
         <!-- FAHRGELD -->
         <div class="field mb-4 col-12 md:col-4">
           <label for="nickname" class="font-medium text-900">Fahrgeld</label>
-          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100" [minFractionDigits]="2"
-                         [maxFractionDigits]="2"></p-inputNumber>
+          <p-inputNumber mode="currency" [showButtons]="false" [min]="0" [max]="100" [minFractionDigits]="2"
+                         [maxFractionDigits]="2" currency="EUR" locale="de-DE"></p-inputNumber>
         </div>
 
         <!-- NOTIZEN -->
@@ -135,11 +135,13 @@
           </div>
         </div>
 
+        <!-- BEOBACHTER -->
         <div class="field mb-4 col-6" style="display:{{!beo ? 'none' : ''}}">
           <label for="beo" class="font-medium text-900">Beobachter</label>
           <input id="nickname" type="text" pInputText>
         </div>
 
+        <!-- PUNKTE -->
         <div class="field mb-4 col-6" style="display:{{!beo ? 'none' : ''}}">
           <label for="beo" class="font-medium text-900">Punkte</label>
           <p-inputNumber [disabled]="!beo" mode="decimal" [showButtons]="false" [min]="0" [max]="500"

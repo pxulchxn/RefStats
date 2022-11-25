@@ -5,42 +5,42 @@
       "date": "2022-10-29",
       "match": "Eintracht Braunschweig II - VfL Osnabrück II",
       "league": "Niedersachsenliga",
-      "function": "second_assistent"
+      "function": "2. Assistent"
     },
     {
       "id": 2,
       "date": "2022-10-30",
       "match": "JFV Kickers Braunschweig - SG Bienrode/Waggum",
       "league": "Freundschaftsspiel",
-      "function": "schiedsrichter"
+      "function": "Schiedsrichter"
     },
     {
       "id": 3,
       "date": "2022-10-30",
       "match": "SV GW Waggum - FC Wenden 2",
       "league": "1. Kreisklasse",
-      "function": "schiedsrichter"
+      "function": "Schiedsrichter"
     },
     {
       "id": 4,
       "date": "2022-11-05",
       "match": "SV Stöckheim - TSV Germ. Lamme II-9er-",
       "league": "Kreisliga",
-      "function": "schiedsrichter"
+      "function": "Schiedsrichter"
     },
     {
       "id": 5,
       "date": "2022-11-06",
       "match": "BSV Ölper - VfL Bienrode",
       "league": "Kreisliga",
-      "function": "schiedsrichter"
+      "function": "Schiedsrichter"
     },
     {
       "id": 6,
       "date": "2022-11-27",
       "match": "Eutin 08 - SG Strand/Sereetz",
       "league": "Landesliga",
-      "function": "schiedsrichter"
+      "function": "Schiedsrichter"
     }
   ]
 }

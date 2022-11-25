@@ -23,6 +23,8 @@ export class EditMatchesDashboardsComponent {
 
   loading: boolean = true;
 
+  beo: boolean = false;
+
   constructor(private customerService: CustomerService) { }
 
   ngOnInit() {
@@ -54,6 +56,15 @@ export class EditMatchesDashboardsComponent {
       // @ts-ignore
       this.customers1.forEach(customer => customer.date = new Date(customer.date));
     });
+  }
+
+
+  switchValCheck() {
+    this.valCheck = !this.valCheck;
+  }
+
+  switchBeo(){
+    this.beo = !this.beo;
   }
 
 }

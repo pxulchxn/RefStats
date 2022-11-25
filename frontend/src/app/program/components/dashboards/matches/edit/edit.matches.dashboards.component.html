@@ -1,25 +1,25 @@
 <div class="card">
-  <span class="text-900 text-xl font-bold mb-4 block">Detailed Match View</span>
+  <span class="text-900 text-xl font-bold mb-4 block">Spiel bearbeiten</span>
   <div class="grid">
     <div class="col-12 lg:col-12">
       <div class="grid formgrid p-fluid">
         <!-- SPIEL -->
-        <div class="field mb-4 col-12">
+        <div class="field mb-4 col-12 md:col-8">
           <label for="nickname" class="font-medium text-900">Spiel</label>
           <input id="nickname" type="text" pInputText>
         </div>
 
         <!-- DATUM -->
-        <div class="field mb-4 col-12">
+        <div class="field mb-4 col-12 md:col-4">
           <label for="email" class="font-medium text-900">Datum</label>
-          <p-calendar [showIcon]="true" inputId="icon"></p-calendar>
+          <p-calendar dateFormat="dd.mm.yy" [firstDayOfWeek]="1" [showIcon]="true" inputId="icon"></p-calendar>
         </div>
 
         <!-- MANNSCHAFTSART -->
         <div class="field mb-4 col-12 md:col-4">
           <label for="country" class="font-medium text-900">Mannschaftsart</label>
           <p-dropdown inputId="country" [options]="mannschaftsart" optionLabel="name" [filter]="true" filterBy="name"
-                      [showClear]="true" placeholder="Select a Mannschaftsart">
+                      [showClear]="true" placeholder="Wähle eine Mannschaftsart">
             <ng-template let-country pTemplate="item">
               <div class="flex align-items-center">
                 <div>{{country.name}}</div>
@@ -32,7 +32,7 @@
         <div class="field mb-4 col-12 md:col-4">
           <label for="country" class="font-medium text-900">Liga</label>
           <p-dropdown inputId="country" [options]="league" optionLabel="name" [filter]="true" filterBy="name"
-                      [showClear]="true" placeholder="Select a Liga">
+                      [showClear]="true" placeholder="Wähle eine Liga">
             <ng-template let-country pTemplate="item">
               <div class="flex align-items-center">
                 <div>{{country.name}}</div>
@@ -45,7 +45,7 @@
         <div class="field mb-4 col-12 md:col-4">
           <label for="country" class="font-medium text-900">Funktion</label>
           <p-dropdown inputId="country" [options]="function" optionLabel="name" [filter]="true" filterBy="name"
-                      [showClear]="true" placeholder="Select a Funktion">
+                      [showClear]="true" placeholder="Wähle eine Funktion">
             <ng-template let-country pTemplate="item">
               <div class="flex align-items-center">
                 <div>{{country.name}}</div>
@@ -73,49 +73,52 @@
         </div>
 
         <!-- KARTEN TEAMOFFIZIELLE CHECKBOX -->
-        <div class="field mb-4 col-12">
+        <div class="field col-12">
           <div class="field-checkbox">
-            <p-checkbox name="valCheck" value="New York" id="cardsT"></p-checkbox>
+            <p-checkbox name="valCheck" value="valCheck" id="valCheck" (click)="switchValCheck()"></p-checkbox>
             <label for="ny">Karten für Teamoffizielle</label>
           </div>
         </div>
 
         <!-- GELBE KARTEN TEAMOFFIZIELLE -->
-        <div class="field mb-4 col-12 md:col-4">
+        <div class="field mb-4 col-12 md:col-4" style="display:{{!valCheck ? 'none' : ''}}">
           <label for="nickname" class="font-medium text-900">Gelbe Karten Teamoffizielle</label>
-          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100"></p-inputNumber>
+          <p-inputNumber [disabled]="!valCheck" mode="decimal" [showButtons]="false" [min]="0"
+                         [max]="100"></p-inputNumber>
         </div>
 
         <!-- GELB-ROTE KARTEN TEAMOFFIZIELLE -->
-        <div class="field mb-4 col-12 md:col-4">
+        <div class="field mb-4 col-12 md:col-4" style="display:{{!valCheck ? 'none' : ''}}">
           <label for="nickname" class="font-medium text-900">Gelb-Rote Karten Teamoffizielle</label>
-          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100"></p-inputNumber>
+          <p-inputNumber [disabled]="!valCheck" mode="decimal" [showButtons]="false" [min]="0"
+                         [max]="100"></p-inputNumber>
         </div>
 
         <!-- ROTE KARTEN TEAMOFFIZIELLE -->
-        <div class="field mb-4 col-12 md:col-4">
+        <div class="field mb-4 col-12 md:col-4" style="display:{{!valCheck ? 'none' : ''}}">
           <label for="nickname" class="font-medium text-900">Rote Karten Teamoffizielle</label>
-          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100"></p-inputNumber>
+          <p-inputNumber [disabled]="!valCheck" mode="decimal" [showButtons]="false" [min]="0"
+                         [max]="100"></p-inputNumber>
         </div>
 
         <!-- ZUSCHAUER -->
         <div class="field mb-4 col-12 md:col-4">
           <label for="nickname" class="font-medium text-900">Zuschauer</label>
-          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="200000"></p-inputNumber>
+          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="200000" locale="de-DE"></p-inputNumber>
         </div>
 
         <!-- SPESEN -->
         <div class="field mb-4 col-12 md:col-4">
           <label for="nickname" class="font-medium text-900">Spesen</label>
-          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100" [minFractionDigits]="2"
-                         [maxFractionDigits]="2"></p-inputNumber>
+          <p-inputNumber mode="currency" [showButtons]="false" [min]="0" [max]="100" [minFractionDigits]="2"
+                         [maxFractionDigits]="2" currency="EUR" locale="de-DE"></p-inputNumber>
         </div>
 
         <!-- FAHRGELD -->
         <div class="field mb-4 col-12 md:col-4">
           <label for="nickname" class="font-medium text-900">Fahrgeld</label>
-          <p-inputNumber mode="decimal" [showButtons]="false" [min]="0" [max]="100" [minFractionDigits]="2"
-                         [maxFractionDigits]="2"></p-inputNumber>
+          <p-inputNumber mode="currency" [showButtons]="false" [min]="0" [max]="100" [minFractionDigits]="2"
+                         [maxFractionDigits]="2" currency="EUR" locale="de-DE"></p-inputNumber>
         </div>
 
         <!-- NOTIZEN -->
@@ -125,26 +128,37 @@
         </div>
 
         <!-- BEOBACHTUNG CHECKBOX -->
-        <div class="field mb-4 col-12">
+        <div class="field col-12">
           <div class="field-checkbox">
-            <p-checkbox name="valCheck" value="New York" id="ny"></p-checkbox>
+            <p-checkbox name="valCheck" value="New York" id="ny" (click)="switchBeo()"></p-checkbox>
             <label for="ny">Beobachtung</label>
           </div>
         </div>
 
-        <div class="field mb-4 col-12">
+        <!-- BEOBACHTER -->
+        <div class="field mb-4 col-6" style="display:{{!beo ? 'none' : ''}}">
+          <label for="beo" class="font-medium text-900">Beobachter</label>
+          <input id="nickname" type="text" pInputText>
+        </div>
+
+        <!-- PUNKTE -->
+        <div class="field mb-4 col-6" style="display:{{!beo ? 'none' : ''}}">
           <label for="beo" class="font-medium text-900">Punkte</label>
-          <input disabled id="beo" type="text" pInputText>
+          <p-inputNumber [disabled]="!beo" mode="decimal" [showButtons]="false" [min]="0" [max]="500"
+                         [minFractionDigits]="0"
+                         [maxFractionDigits]="0"></p-inputNumber>
         </div>
 
         <!-- BESTÄTIGEN BUTTON -->
         <div class="field mb-4 col-12 md:col-3">
-          <button [routerLink]="'../../matches'" pButton pRipple type="button" label="Bestätigen" class="p-button-outlined p-button-success"></button>
+          <button [routerLink]="'../../matches'" pButton pRipple type="button" label="Speichern"
+                  class="p-button-outlined p-button-success"></button>
         </div>
 
         <!-- ABBRECHEN BUTTON -->
         <div class="field mb-4 col-12 md:col-3">
-          <button [routerLink]="'../../matches'" pButton pRipple type="button" label="Abbrechen" class="p-button-outlined p-button-danger"></button>
+          <button [routerLink]="'../../matches'" pButton pRipple type="button" label="Abbrechen"
+                  class="p-button-outlined p-button-danger"></button>
         </div>
       </div>
     </div>

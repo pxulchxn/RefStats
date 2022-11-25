@@ -31,10 +31,10 @@ export class MatchesDashboardComponent implements OnInit {
     });
 
     this.function = [
-      {label: 'Schiedsrichter', value: 'schiedsrichter'},
-      {label: '1. Assistent', value: 'first_assistent'},
-      {label: '2. Assistent', value: 'second_assistent'},
-      {label: '4. Offizieller', value: 'fourth_official'}
+      {label: 'Schiedsrichter', value: 'Schiedsrichter'},
+      {label: '1. Assistent', value: '1. Assistent'},
+      {label: '2. Assistent', value: '2. Assistent'},
+      {label: '4. Offizieller', value: '4. Offizieller'}
     ];
   }
 
